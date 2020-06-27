@@ -1,0 +1,16 @@
+.wrapping-jumbotron {
+  margin-top: 72px;
+  position: relative;
+}
+
+.center-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.jumbotron-body {
+  height: 100vh;
+}

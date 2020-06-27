@@ -1,0 +1,51 @@
+.logo-riara {
+  height: 190px;
+  width: 190px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -22px;
+  left: 0;
+  right: 0;
+  top: 0px;
+  text-align: center;
+}
+
+.bar-nav {
+  height: 75px;
+}
+
+.margin-logo {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.navbar-mobile {
+  visibility: hidden !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-web {
+    visibility: hidden !important;
+  }
+
+  .logo-riara {
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15px;
+    left: 0;
+    right: 0;
+    top: 0px;
+    text-align: center;
+  }
+  .navbar-mobile {
+    visibility: visible !important;
+  }
+}
