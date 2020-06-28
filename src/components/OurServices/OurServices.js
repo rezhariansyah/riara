@@ -36,7 +36,7 @@ class MyCarousel extends Component {
               <img
                 className="card-img-top facility-image"
                 src={imageCard1}
-                alt="Card image cap"
+                alt="..."
               />
               <div className="card-body">
                 <h5 className="card-title">Ship Building</h5>
@@ -55,7 +55,7 @@ class MyCarousel extends Component {
               <img
                 className="card-img-top facility-image"
                 src={imageCard2}
-                alt="Card image cap"
+                alt="..."
               />
               <div className="card-body">
                 <h5 className="card-title">Wood Fabrication</h5>
@@ -74,7 +74,7 @@ class MyCarousel extends Component {
               <img
                 className="card-img-top facility-image"
                 src={imageCard4}
-                alt="Card image cap"
+                alt="..."
               />
               <div className="card-body">
                 <h5 className="card-title">Naval Architecture</h5>
@@ -93,7 +93,7 @@ class MyCarousel extends Component {
               <img
                 className="card-img-top facility-image"
                 src={imageCard3}
-                alt="Card image cap"
+                alt="..."
               />
               <div className="card-body">
                 <h5 className="card-title">Ship Management</h5>
@@ -112,7 +112,7 @@ class MyCarousel extends Component {
               <img
                 className="card-img-top facility-image"
                 src={imageCard5}
-                alt="Card image cap"
+                alt="..."
               />
               <div className="card-body">
                 <h5 className="card-title">Branding</h5>
