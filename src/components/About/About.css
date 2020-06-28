@@ -1,0 +1,40 @@
+.container-about {
+  background-color: white;
+  padding: 0px !important;
+}
+
+.about-image-1 {
+  background-size: cover;
+  height: 498px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.about-image-2 {
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.subtitle {
+  color: #17A2B8;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-description {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-title {
+    text-align: center;
+    font-size: smaller;
+  }
+  .about-description {
+    font-size: 14px;
+    text-align: justify;
+  }
+}

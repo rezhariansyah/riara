@@ -1,0 +1,22 @@
+.quote {
+    font-size: 30px !important;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .quote {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .quote {
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .quote {
+        font-size: 15px !important;
+    }
+}

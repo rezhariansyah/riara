@@ -1,0 +1,90 @@
+.facility-image {
+  height: 380px;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.title-section {
+  margin-top: 100px;
+  border-left: solid 5px #17a2bf;
+}
+
+.subtitle-about {
+  font-size: 30px;
+  padding-left: 55px;
+  margin-bottom: 0px;
+}
+
+.title-about {
+  font-size: 70px;
+  padding-left: 55px;
+}
+
+.card-facilities {
+  width: 50rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .subtitle-about {
+    font-size: 25px;
+    padding-left: 50px;
+    margin-bottom: 0px;
+  }
+  .title-about {
+    font-size: 60px;
+    padding-left: 50px;
+  }
+  .card-facilities {
+    width: 30rem;
+  }
+  .facility-image {
+    height: 300px;
+    background-size: cover;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .subtitle-about {
+    font-size: 20px;
+    padding-left: 40px;
+    margin-bottom: 0px;
+  }
+  .title-about {
+    font-size: 55px;
+    padding-left: 40px;
+  }
+  .card-facilities {
+    width: 30rem;
+  }
+  .facility-image {
+    height: 300px;
+    background-size: cover;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .title-section {
+    margin-top: 50px;
+    border-left: solid 5px #17a2bf;
+  }
+  .subtitle-about {
+    font-size: 12px;
+    padding-left: 20px;
+    margin-bottom: 0px;
+  }
+  .title-about {
+    font-size: 40px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+  }
+  .card-facilities {
+    width: 14rem;
+  }
+  .facility-image {
+    height: 150px;
+    background-size: cover;
+    object-fit: cover;
+  }
+}

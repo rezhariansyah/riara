@@ -8,7 +8,7 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
-import logo from "../../assets/logo/logo-riara.png";
+import logo from "../../assets/logo/IMG_0462.PNG";
 import "./Header.css";
 
 const Header = (props) => {
@@ -18,7 +18,7 @@ const Header = (props) => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center bar-nav navbar-web fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center bar-nav navbar-web fixed-top">
         <ul className="navbar-nav">
           <li className="nav-item ml-3 mr-3">
             <NavItem>
@@ -60,11 +60,11 @@ const Header = (props) => {
         </ul>
       </nav>
 
-      <Navbar color="dark" dark className="navbar-mobile fixed-top">
+      <Navbar color="light" light className="navbar-mobile fixed-top">
         <NavbarBrand href="/">
           <img src={logo} className="logo-riara" alt="logo-riara" />
         </NavbarBrand>
-        <NavbarToggler onClick={toggleNavbar} className="mr-2" style={{height:"55px"}} />
+        <NavbarToggler onClick={toggleNavbar} className="mr-2 mr-auto" style={{height:"55px"}} />
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>

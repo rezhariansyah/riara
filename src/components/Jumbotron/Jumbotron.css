@@ -9,8 +9,24 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  z-index: 2;
+  color: white;
 }
 
 .jumbotron-body {
-  height: 100vh;
+  height: 110vh;
+  background: url(../../assets/banner/DSCF9247.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.jumbotron-body > .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #4F708D;
+  opacity: 0.8;
+  z-index: 1;
 }

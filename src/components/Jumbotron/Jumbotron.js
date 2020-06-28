@@ -7,6 +7,7 @@ const Banner = (props) => {
     <>
       <div className="wrapping-jumbotron">
         <Jumbotron className="jumbotron-body">
+          <div className="overlay" />
           <div className="container">
             <div className="center-content">
               <h1>Hello Dunia</h1>
