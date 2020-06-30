@@ -5,7 +5,7 @@ import imageCard2 from "../../assets/facilities/woodFabrication.jpg";
 import imageCard3 from "../../assets/facilities/shipManagement.jpg";
 import imageCard4 from "../../assets/facilities/navalArchitecture.jpg";
 import imageCard5 from "../../assets/facilities/branding.jpg";
-import "./OurServices.css";
+import "./Facilities.css";
 
 class MyCarousel extends Component {
   static get CONTAINER_STYLE() {
@@ -31,7 +31,7 @@ class MyCarousel extends Component {
           </div>
         </div>
         <div style={MyCarousel.CONTAINER_STYLE}>
-          <ReactCardCarousel autoplay={true} autoplay_speed={10000}>
+          <ReactCardCarousel autoplay={false} autoplay_speed={10000}>
             <div className="card card-facilities">
               <img
                 className="card-img-top facility-image"

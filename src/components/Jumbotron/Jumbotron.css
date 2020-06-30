@@ -18,6 +18,8 @@
   background: url(../../assets/banner/DSCF9247.jpg);
   background-size: cover;
   background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .jumbotron-body > .overlay {
