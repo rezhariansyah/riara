@@ -13,7 +13,7 @@ const Clients = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-5 title-section">
-              <p className="subtitle-about">O U R</p>
+              <p className="subtitle-about">O U R &nbsp;  V A L U E D</p>
               <h1 className="title-about">CLIENTS</h1>
             </div>
           </div>

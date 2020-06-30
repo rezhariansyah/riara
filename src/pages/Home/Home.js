@@ -8,6 +8,7 @@ import Resources from "../../components/Resources/Resources";
 import Clients from "../../components/Clients/Clients";
 import Footer from "../../components/Footer/Footer";
 import Contact from "../../components/Contact/Contact";
+import Projects from "../../components/Projects/Projects";
 
 
 export default class Home extends Component {
@@ -19,6 +20,7 @@ export default class Home extends Component {
         <BigQuote />
         <About />
         <MyCarousel />
+        <Projects />
         <Resources />
         <Clients />
         <Contact />

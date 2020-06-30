@@ -22,17 +22,17 @@ const Header = (props) => {
         <ul className="navbar-nav">
           <li className="nav-item ml-3 mr-3">
             <NavItem>
-              <NavLink>ABOUT</NavLink>
+              <NavLink>WHO WE ARE</NavLink>
             </NavItem>
           </li>
           <li className="nav-item ml-3 mr-3">
             <NavItem>
-              <NavLink>OUR SERVICES</NavLink>
+              <NavLink>WHAT WE DO</NavLink>
             </NavItem>
           </li>
           <li className="nav-item ml-3 mr-3">
             <NavItem>
-              <NavLink>FACILITY</NavLink>
+              <NavLink>PROJECTS</NavLink>
             </NavItem>
           </li>
           <li className="nav-item margin-logo">
@@ -44,7 +44,7 @@ const Header = (props) => {
           </li>
           <li className="nav-item ml-3 mr-3">
             <NavItem>
-              <NavLink>CONTACT</NavLink>
+              <NavLink>RECOURCES</NavLink>
             </NavItem>
           </li>
           <li className="nav-item ml-3 mr-3">
@@ -54,7 +54,7 @@ const Header = (props) => {
           </li>
           <li className="nav-item ml-3 mr-3">
             <NavItem>
-              <NavLink>RECOURCES</NavLink>
+              <NavLink>GET IN TOUCH</NavLink>
             </NavItem>
           </li>
         </ul>
@@ -64,26 +64,30 @@ const Header = (props) => {
         <NavbarBrand href="/">
           <img src={logo} className="logo-riara" alt="logo-riara" />
         </NavbarBrand>
-        <NavbarToggler onClick={toggleNavbar} className="mr-2 mr-auto" style={{height:"55px"}} />
+        <NavbarToggler
+          onClick={toggleNavbar}
+          className="mr-2 mr-auto"
+          style={{ height: "55px" }}
+        />
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink href="/components/">ABOUT</NavLink>
+              <NavLink href="/components/">WHO WE ARE</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/components/">OUR SERVICES</NavLink>
+              <NavLink href="/components/">WHAT WE DO</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/components/">FACILITY</NavLink>
+              <NavLink href="/components/">PROJECTS</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/components/">CONTACT</NavLink>
+              <NavLink href="/components/">RECOURCES</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/components/">CLIENTS</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/components/">RECOURCES</NavLink>
+              <NavLink href="/components/">GET IN TOUCH</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

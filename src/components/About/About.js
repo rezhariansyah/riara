@@ -26,7 +26,7 @@ const About = () => {
         <div className="col-md-5">
           <div className="container">
             <div className="about-title">
-              <h1 className="mt-3">ABOUT US</h1>
+              <h1 className="mt-3">WHO WE ARE</h1>
               <p className="subtitle">
                 Lorem ipsum dolor sit amet consectetur.
               </p>

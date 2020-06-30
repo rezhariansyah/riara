@@ -1,6 +1,9 @@
 .quote {
     font-size: 30px !important;
     margin-bottom: 40px;
+    font-style: italic;
+    font-weight: initial;
+    /* text-shadow: 2px 1px 3px rgba(23,162,184,0.69); */
 }
 
 @media only screen and (max-width: 1024px) {

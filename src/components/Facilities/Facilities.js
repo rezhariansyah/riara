@@ -25,8 +25,8 @@ class MyCarousel extends Component {
         <div className="container">
           <div className="row justify-content-center mb-5">
             <div className="col-md-5 title-section">
-              <p className="subtitle-about">O U R</p>
-              <h1 className="title-about">FACILITIES</h1>
+              <p className="subtitle-about">W H A T</p>
+              <h1 className="title-about">WE DO</h1>
             </div>
           </div>
         </div>

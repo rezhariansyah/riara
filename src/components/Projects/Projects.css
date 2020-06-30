@@ -1,0 +1,23 @@
+.project-margin {
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .project-margin {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .project-height {
+      height: 200px;
+  }
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.modal-image {
+  background-repeat: no-repeat;
+  object-fit: cover;
+}

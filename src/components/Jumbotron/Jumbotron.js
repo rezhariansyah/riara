@@ -10,7 +10,10 @@ const Banner = (props) => {
           <div className="overlay" />
           <div className="container">
             <div className="center-content">
-              <h1>Hello Dunia</h1>
+              <p className="quote-banter">
+                We believe that <span className="bold">customer</span> satisfaction is the
+                greatest <span className="bold">achievment</span>
+              </p>
             </div>
           </div>
         </Jumbotron>

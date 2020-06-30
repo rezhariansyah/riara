@@ -8,8 +8,7 @@ const BigQuote = () => {
       <div className="col-md-6 text-center">
         <div className="container">
           <p className="quote">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nulla
-            quam, enim officiis maiores animi rerum.
+            We cant control the weather, but we can control the schedule, quality, cost, and safety
           </p>
         </div>
 

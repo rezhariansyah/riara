@@ -21,7 +21,9 @@ const Contact = () => {
                   <p>
                     Desa Ara <br /> Bulukumba <br /> Sulawesi Selatan <br />{" "}
                     Indonesia 95721 <br /> <br />
-                    <i>hello@riara.co</i> <br /> Telp : +62 852 4463 1945
+                    <i>hello@riara.co</i> <br /> Telp : +62 852 4463 1945 <br />{" "}
+                    <br /> Indonesia Bussiness Hours <br /> Monday - Saturday{" "}
+                    <br /> 08.00 AM - 05.00 PM (WITA)
                   </p>
                 </div>
               </div>
