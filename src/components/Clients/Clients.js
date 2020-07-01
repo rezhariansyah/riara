@@ -4,7 +4,7 @@ import papiton from "../../assets/clients/3.jpg";
 import sulsel from "../../assets/clients/Logo-Kabupaten-Bulukumba-Sulawesi-Selatan.jpg";
 import anjani from "../../assets/clients/anjanivoyage_PNG.jpg";
 import putrabahari from "../../assets/clients/putrabahari.PNG";
-import vinca from "../../assets/clients/vinca.PNG";
+import vinca from "../../assets/clients/vinca.jpg";
 
 const Clients = () => {
   return (

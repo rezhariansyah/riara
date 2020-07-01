@@ -15,11 +15,30 @@
   height: 250px;
   width: 100%;
   object-fit: cover;
+  margin-top: 3px;
+  padding-right: 3px;
+}
+.about-image-3 {
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 3px;
+  padding-right: 0px;
 }
 
 .subtitle {
-  color: #17A2B8;
+  color: #17a2b8;
   font-weight: bold;
+}
+
+.about-mobile {
+  margin-top: 40px;
+}
+
+.about-description {
+  text-align: justify;
+  padding-right: 20px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -35,5 +54,10 @@
   }
   .about-description {
     font-size: 14px;
+    padding-right: 0px;
+  }
+  .about-mobile {
+    text-align: center;
+    margin-top: 0px;
   }
 }

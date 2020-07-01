@@ -87,4 +87,9 @@
     background-size: cover;
     object-fit: cover;
   }
+  .title-section {
+    margin-top: 100px;
+    border-left: solid 5px #17a2bf;
+    margin-left: 22%;
+  }
 }

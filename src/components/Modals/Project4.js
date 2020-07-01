@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import img1 from "../../assets/projects/popup-princess-hemelly.jpg";
 
-const Modals = (props) => {
-  const { buttonLabel = "Mission and Vission", className = "modal-lg" } = props;
+const Project4 = (props) => {
+  const { buttonLabel = "VIEW PROJECT", className = "modal-lg" } = props;
 
   const [modal, setModal] = useState(false);
 
@@ -32,4 +32,4 @@ const Modals = (props) => {
   );
 };
 
-export default Modals;
+export default Project4;

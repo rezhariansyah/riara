@@ -10,11 +10,10 @@ import Footer from "../../components/Footer/Footer";
 import Contact from "../../components/Contact/Contact";
 import Projects from "../../components/Projects/Projects";
 
-
 export default class Home extends Component {
   render() {
     return (
-      <div style={{height:"800px"}}>
+      <div>
         <Header />
         <Banner />
         <BigQuote />

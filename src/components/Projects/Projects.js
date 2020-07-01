@@ -3,7 +3,11 @@ import "react-multi-carousel/lib/styles.css";
 import React from "react";
 import resourcesImg from "../../assets/resources/DSC06552.jpg";
 import "./Projects.css";
-import Modals from "./Modals";
+import Project1 from "../Modals/Project1";
+import Project2 from "../Modals/Project2";
+import Project3 from "../Modals/Project3";
+import Project4 from "../Modals/Project4";
+import Project5 from "../Modals/Project5";
 
 const responsive = {
   superLargeDesktop: {
@@ -62,7 +66,69 @@ const Projects = () => {
                 opportunities are frequently provided internally and
                 supplemented with sponsored courses by relevant providers.
               </p>
-              <Modals />
+              <Project1 />
+            </div>
+          </div>
+        </div>
+        <div className="row justify-content-center container-resources project-margin">
+          <div className="col-md-6 p-0">
+            <img
+              src={resourcesImg}
+              className="about-image-1 project-height"
+              alt="..."
+            />
+          </div>
+          <div className="col-md-6">
+            <div className="about-title">
+              <h1 className="mt-3">LOPI DUWA</h1>
+              <p className="subtitle">
+                They are not human resources. They are resourceful humans
+              </p>
+            </div>
+            <div className="about-description">
+              <p>
+                As one of the larger shipyard company in Batam, we employ
+                highly-skilled and well-rounded staff as we emphasize on fitting
+                the right person to the right job to ensure customers’
+                satisfaction. The company’s growth is largely attributed to
+                motivating and empowering our employees at all levels, ensuring
+                that every single member of our team feels fulfilled and
+                enriched in their day-to-day operations. Besides that, training
+                opportunities are frequently provided internally and
+                supplemented with sponsored courses by relevant providers.
+              </p>
+              <Project2 />
+            </div>
+          </div>
+        </div>
+        <div className="row justify-content-center container-resources project-margin">
+          <div className="col-md-6 p-0">
+            <img
+              src={resourcesImg}
+              className="about-image-1 project-height"
+              alt="..."
+            />
+          </div>
+          <div className="col-md-6">
+            <div className="about-title">
+              <h1 className="mt-3">VINCA</h1>
+              <p className="subtitle">
+                They are not human resources. They are resourceful humans
+              </p>
+            </div>
+            <div className="about-description">
+              <p>
+                As one of the larger shipyard company in Batam, we employ
+                highly-skilled and well-rounded staff as we emphasize on fitting
+                the right person to the right job to ensure customers’
+                satisfaction. The company’s growth is largely attributed to
+                motivating and empowering our employees at all levels, ensuring
+                that every single member of our team feels fulfilled and
+                enriched in their day-to-day operations. Besides that, training
+                opportunities are frequently provided internally and
+                supplemented with sponsored courses by relevant providers.
+              </p>
+              <Project3 />
             </div>
           </div>
         </div>
@@ -93,6 +159,7 @@ const Projects = () => {
                 opportunities are frequently provided internally and
                 supplemented with sponsored courses by relevant providers.
               </p>
+              <Project4 />
             </div>
           </div>
         </div>
@@ -123,36 +190,7 @@ const Projects = () => {
                 opportunities are frequently provided internally and
                 supplemented with sponsored courses by relevant providers.
               </p>
-            </div>
-          </div>
-        </div>
-        <div className="row justify-content-center container-resources project-margin">
-          <div className="col-md-6 p-0">
-            <img
-              src={resourcesImg}
-              className="about-image-1 project-height"
-              alt="..."
-            />
-          </div>
-          <div className="col-md-6">
-            <div className="about-title">
-              <h1 className="mt-3">OUR TEAM</h1>
-              <p className="subtitle">
-                They are not human resources. They are resourceful humans
-              </p>
-            </div>
-            <div className="about-description">
-              <p>
-                As one of the larger shipyard company in Batam, we employ
-                highly-skilled and well-rounded staff as we emphasize on fitting
-                the right person to the right job to ensure customers’
-                satisfaction. The company’s growth is largely attributed to
-                motivating and empowering our employees at all levels, ensuring
-                that every single member of our team feels fulfilled and
-                enriched in their day-to-day operations. Besides that, training
-                opportunities are frequently provided internally and
-                supplemented with sponsored courses by relevant providers.
-              </p>
+              <Project5 />
             </div>
           </div>
         </div>
