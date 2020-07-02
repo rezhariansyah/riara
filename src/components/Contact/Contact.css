@@ -1,3 +1,28 @@
 .contact-wrapper {
-    margin-top: 130px;
+  margin-top: 130px;
+}
+.contact-title {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact-title {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .detail-contact {
+    text-align: center;
+  }
+  .contact-title {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 30px;
+    text-align: center;
+  }
 }

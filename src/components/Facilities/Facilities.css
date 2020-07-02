@@ -62,6 +62,9 @@
     background-size: cover;
     object-fit: cover;
   }
+  .desc-what-we-do {
+    font-size: smaller;
+  }
 }
 
 @media only screen and (max-width: 600px) {

@@ -9,14 +9,13 @@ const Contact = () => {
         <div className="container container-about">
           <div className="row">
             <div className="col-md-3">
-              <div className="container">
-                <div className="about-title">
-                  <h1 className="mt-3">CONTACT</h1>
-                  <h1>DETAILS</h1>
+              <div className="container" style={{paddingRight:"0px"}}>
+                <div className="contact-title">
+                  <p>TALK TO AN ENGINEER <br/> OR PRODUCT MANAGER</p>
                 </div>
 
                 <br />
-                <div className="about-description">
+                <div className="about-description detail-contact">
                   <h5 style={{ color: "#17A2BF" }}>RIARA</h5>
                   <p>
                     Desa Ara <br /> Bulukumba <br /> Sulawesi Selatan <br />{" "}

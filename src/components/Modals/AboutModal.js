@@ -17,16 +17,16 @@ const AboutModal = (props) => {
       <Modal isOpen={modal} toggle={toggle} className={className}>
         <ModalHeader toggle={toggle}>OUR VISION AND MISSION</ModalHeader>
         <ModalBody>
-          <div className="mission-vission-wrapper align-items-center">
-            <div className="row mission-vission-desc">
+          <div className="mission-vission-wrapper align-items-center mission-vission-desc pt-5">
+            <div className="row ">
               <div className="col-md-6">
                 <h3 className="title-mission">Mission</h3>
                 <p>
                   Helping our customer to build the boat they want, white
                   developing solutions to preserve the environment.
                 </p>
+                <p>How do we develop solutions for environment ?</p>
                 <p>
-                  How do we develop solutions for environment ? <br />
                   First we have to identify the wood needs of each project then
                   we plant the wood seedlings according to the needs that we
                   use. Environmentally responsible and sustainable solutions.

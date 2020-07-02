@@ -39,15 +39,11 @@ class MyCarousel extends Component {
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title">Ship Building</h5>
-                <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Magnam debitis, officia iure totam mollitia eius vitae nam
-                  magni assumenda maxime repellat natus molestiae incidunt
-                  cumque odio id excepturi sunt, quisquam omnis consectetur
-                  distinctio laudantium. Quae exercitationem reiciendis aut,
-                  temporibus eveniet architecto nihil porro qui totam nemo sint
-                  quaerat, aspernatur facere.
+                <h5 className="card-title text-center">Ship Building</h5>
+                <p className="card-text desc-what-we-do text-justify">
+                  It is our capability to build phinisi and fiberglass boat to
+                  meet various demands for our clients. Riara Indonesia has
+                  gained experience on building phinisi boat.
                 </p>
               </div>
             </div>
@@ -58,15 +54,10 @@ class MyCarousel extends Component {
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title">Wood Fabrication</h5>
-                <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Magnam debitis, officia iure totam mollitia eius vitae nam
-                  magni assumenda maxime repellat natus molestiae incidunt
-                  cumque odio id excepturi sunt, quisquam omnis consectetur
-                  distinctio laudantium. Quae exercitationem reiciendis aut,
-                  temporibus eveniet architecto nihil porro qui totam nemo sint
-                  quaerat, aspernatur facere.
+                <h5 className="card-title text-center">Wood Fabrication</h5>
+                <p className="card-text desc-what-we-do text-justify">
+                  We offer specialist workshops and open fabrication are with
+                  woodworking tools for made interior set
                 </p>
               </div>
             </div>
@@ -77,15 +68,12 @@ class MyCarousel extends Component {
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title">Naval Architecture</h5>
-                <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Magnam debitis, officia iure totam mollitia eius vitae nam
-                  magni assumenda maxime repellat natus molestiae incidunt
-                  cumque odio id excepturi sunt, quisquam omnis consectetur
-                  distinctio laudantium. Quae exercitationem reiciendis aut,
-                  temporibus eveniet architecto nihil porro qui totam nemo sint
-                  quaerat, aspernatur facere.
+                <h5 className="card-title text-center">Naval Architecture</h5>
+                <p className="card-text desc-what-we-do text-justify">
+                  We provide ship consultant services for design engineers, for
+                  ship building needs. Sush as general arrangement, exterior and
+                  interios design, 3D layout, intact stability, ship structure,
+                  safety plan.
                 </p>
               </div>
             </div>
@@ -96,15 +84,11 @@ class MyCarousel extends Component {
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title">Ship Management</h5>
-                <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Magnam debitis, officia iure totam mollitia eius vitae nam
-                  magni assumenda maxime repellat natus molestiae incidunt
-                  cumque odio id excepturi sunt, quisquam omnis consectetur
-                  distinctio laudantium. Quae exercitationem reiciendis aut,
-                  temporibus eveniet architecto nihil porro qui totam nemo sint
-                  quaerat, aspernatur facere.
+                <h5 className="card-title text-center">Ship Management</h5>
+                <p className="card-text desc-what-we-do text-justify">
+                  We collaborate with tour and travel services, we will provide
+                  advice for proper ship management. So we can confidently solve
+                  it in the sea transportation business
                 </p>
               </div>
             </div>
@@ -115,15 +99,10 @@ class MyCarousel extends Component {
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title">Branding</h5>
-                <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Magnam debitis, officia iure totam mollitia eius vitae nam
-                  magni assumenda maxime repellat natus molestiae incidunt
-                  cumque odio id excepturi sunt, quisquam omnis consectetur
-                  distinctio laudantium. Quae exercitationem reiciendis aut,
-                  temporibus eveniet architecto nihil porro qui totam nemo sint
-                  quaerat, aspernatur facere.
+                <h5 className="card-title text-center">Branding</h5>
+                <p className="card-text desc-what-we-do text-justify">
+                  The most important part in marketing. We can also help you to
+                  branding your boar. ranging from website creation to promotion
                 </p>
               </div>
             </div>
