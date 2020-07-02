@@ -1,0 +1,49 @@
+.tools-wrapper {
+  background-color: white;
+  margin-left: 235px;
+  margin-right: 235px;
+}
+
+.title-tools {
+  font-size: 40px;
+  text-align: left;
+}
+
+.tools-section {
+  margin-top: 100px;
+  border-right: solid 5px #17a2bf;
+}
+
+.client-collab {
+  width: 60px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .web-collab {
+    margin-top: 80px !important;
+  }
+
+  .client-collab {
+    width: 90px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .web-collab {
+    margin-top: 50px !important;
+  }
+
+  .client-collab {
+    width: 80px !important;
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  .web-collab {
+    margin-top: 0px !important;
+  }
+
+  .client-collab {
+    width: 80px !important;
+  }
+}

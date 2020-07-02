@@ -44,6 +44,34 @@
   z-index: 1;
 }
 
+.list-icon {
+  font-size: 30px;
+  margin-top: 150px;
+}
+
+.icons {
+  margin-right: 35px;
+  margin-left: 35px;
+  text-align: center;
+  color: #ffab00;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .list-icon {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+
+  .icons {
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+    color: #ffab00;
+    cursor: pointer;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .quote-banter {
     font-size: 40px;
@@ -65,6 +93,19 @@
     z-index: 2;
     color: white;
     width: 380px;
+  }
+
+  .list-icon {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .icons {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    color: #ffab00;
+    cursor: pointer;
   }
 }
 
@@ -90,29 +131,10 @@
     color: white;
     width: 380px;
   }
-}
 
-@media only screen and (max-width: 600px) {
-  .quote-banter {
-    font-size: 30px;
-    font-weight: 100;
-    text-align: left;
-  }
-
-  .bold {
-    font-weight: bold;
-    color: #ffab00;
-  }
-
-  .center-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: 2;
-    color: white;
-    width: 340px;
+  .list-icon {
+    font-size: 18px;
+    margin-top: 50px;
   }
 }
 
@@ -137,5 +159,13 @@
     z-index: 2;
     color: white;
     width: 310px;
+  }
+
+  .icons {
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;
+    color: #ffab00;
+    cursor: pointer;
   }
 }

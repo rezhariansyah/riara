@@ -31,171 +31,174 @@ const responsive = {
 
 const Projects = () => {
   return (
-    <div className="container">
-      <div className="row justify-content-center mb-5">
-        <div className="col-md-5 title-section">
-          <p className="subtitle-about">O U R</p>
-          <h1 className="title-about">PROJECTS</h1>
+    <>
+      <div className="container">
+        <div className="row justify-content-center mb-5">
+          <div className="col-md-5 title-section">
+            <p className="subtitle-about">O U R</p>
+            <h1 className="title-about">PROJECTS</h1>
+          </div>
         </div>
+        <Carousel responsive={responsive}>
+          <div className="row justify-content-center container-resources project-margin">
+            <div className="col-md-6 p-0">
+              <img
+                src={resourcesImg}
+                className="about-image-1 project-height"
+                alt="..."
+              />
+            </div>
+            <div className="col-md-6">
+              <div className="about-title">
+                <h1 className="mt-3">PAPITON LOPI</h1>
+                <p className="subtitle">
+                  They are not human resources. They are resourceful humans
+                </p>
+              </div>
+              <div className="about-description">
+                <p>
+                  As one of the larger shipyard company in Batam, we employ
+                  highly-skilled and well-rounded staff as we emphasize on
+                  fitting the right person to the right job to ensure customers’
+                  satisfaction. The company’s growth is largely attributed to
+                  motivating and empowering our employees at all levels,
+                  ensuring that every single member of our team feels fulfilled
+                  and enriched in their day-to-day operations. Besides that,
+                  training opportunities are frequently provided internally and
+                  supplemented with sponsored courses by relevant providers.
+                </p>
+                <Project1 />
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-center container-resources project-margin">
+            <div className="col-md-6 p-0">
+              <img
+                src={resourcesImg}
+                className="about-image-1 project-height"
+                alt="..."
+              />
+            </div>
+            <div className="col-md-6">
+              <div className="about-title">
+                <h1 className="mt-3">LOPI DUWA</h1>
+                <p className="subtitle">
+                  They are not human resources. They are resourceful humans
+                </p>
+              </div>
+              <div className="about-description">
+                <p>
+                  As one of the larger shipyard company in Batam, we employ
+                  highly-skilled and well-rounded staff as we emphasize on
+                  fitting the right person to the right job to ensure customers’
+                  satisfaction. The company’s growth is largely attributed to
+                  motivating and empowering our employees at all levels,
+                  ensuring that every single member of our team feels fulfilled
+                  and enriched in their day-to-day operations. Besides that,
+                  training opportunities are frequently provided internally and
+                  supplemented with sponsored courses by relevant providers.
+                </p>
+                <Project2 />
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-center container-resources project-margin">
+            <div className="col-md-6 p-0">
+              <img
+                src={resourcesImg}
+                className="about-image-1 project-height"
+                alt="..."
+              />
+            </div>
+            <div className="col-md-6">
+              <div className="about-title">
+                <h1 className="mt-3">VINCA</h1>
+                <p className="subtitle">
+                  They are not human resources. They are resourceful humans
+                </p>
+              </div>
+              <div className="about-description">
+                <p>
+                  As one of the larger shipyard company in Batam, we employ
+                  highly-skilled and well-rounded staff as we emphasize on
+                  fitting the right person to the right job to ensure customers’
+                  satisfaction. The company’s growth is largely attributed to
+                  motivating and empowering our employees at all levels,
+                  ensuring that every single member of our team feels fulfilled
+                  and enriched in their day-to-day operations. Besides that,
+                  training opportunities are frequently provided internally and
+                  supplemented with sponsored courses by relevant providers.
+                </p>
+                <Project3 />
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-center container-resources project-margin">
+            <div className="col-md-6 p-0">
+              <img
+                src={resourcesImg}
+                className="about-image-1 project-height"
+                alt="..."
+              />
+            </div>
+            <div className="col-md-6">
+              <div className="about-title">
+                <h1 className="mt-3">OUR TEAM</h1>
+                <p className="subtitle">
+                  They are not human resources. They are resourceful humans
+                </p>
+              </div>
+              <div className="about-description">
+                <p>
+                  As one of the larger shipyard company in Batam, we employ
+                  highly-skilled and well-rounded staff as we emphasize on
+                  fitting the right person to the right job to ensure customers’
+                  satisfaction. The company’s growth is largely attributed to
+                  motivating and empowering our employees at all levels,
+                  ensuring that every single member of our team feels fulfilled
+                  and enriched in their day-to-day operations. Besides that,
+                  training opportunities are frequently provided internally and
+                  supplemented with sponsored courses by relevant providers.
+                </p>
+                <Project4 />
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-center container-resources project-margin">
+            <div className="col-md-6 p-0">
+              <img
+                src={resourcesImg}
+                className="about-image-1 project-height"
+                alt="..."
+              />
+            </div>
+            <div className="col-md-6">
+              <div className="about-title">
+                <h1 className="mt-3">OUR TEAM</h1>
+                <p className="subtitle">
+                  They are not human resources. They are resourceful humans
+                </p>
+              </div>
+              <div className="about-description">
+                <p>
+                  As one of the larger shipyard company in Batam, we employ
+                  highly-skilled and well-rounded staff as we emphasize on
+                  fitting the right person to the right job to ensure customers’
+                  satisfaction. The company’s growth is largely attributed to
+                  motivating and empowering our employees at all levels,
+                  ensuring that every single member of our team feels fulfilled
+                  and enriched in their day-to-day operations. Besides that,
+                  training opportunities are frequently provided internally and
+                  supplemented with sponsored courses by relevant providers.
+                </p>
+                <Project5 />
+              </div>
+            </div>
+          </div>
+        </Carousel>
       </div>
-      <Carousel responsive={responsive}>
-        <div className="row justify-content-center container-resources project-margin">
-          <div className="col-md-6 p-0">
-            <img
-              src={resourcesImg}
-              className="about-image-1 project-height"
-              alt="..."
-            />
-          </div>
-          <div className="col-md-6">
-            <div className="about-title">
-              <h1 className="mt-3">PAPITON LOPI</h1>
-              <p className="subtitle">
-                They are not human resources. They are resourceful humans
-              </p>
-            </div>
-            <div className="about-description">
-              <p>
-                As one of the larger shipyard company in Batam, we employ
-                highly-skilled and well-rounded staff as we emphasize on fitting
-                the right person to the right job to ensure customers’
-                satisfaction. The company’s growth is largely attributed to
-                motivating and empowering our employees at all levels, ensuring
-                that every single member of our team feels fulfilled and
-                enriched in their day-to-day operations. Besides that, training
-                opportunities are frequently provided internally and
-                supplemented with sponsored courses by relevant providers.
-              </p>
-              <Project1 />
-            </div>
-          </div>
-        </div>
-        <div className="row justify-content-center container-resources project-margin">
-          <div className="col-md-6 p-0">
-            <img
-              src={resourcesImg}
-              className="about-image-1 project-height"
-              alt="..."
-            />
-          </div>
-          <div className="col-md-6">
-            <div className="about-title">
-              <h1 className="mt-3">LOPI DUWA</h1>
-              <p className="subtitle">
-                They are not human resources. They are resourceful humans
-              </p>
-            </div>
-            <div className="about-description">
-              <p>
-                As one of the larger shipyard company in Batam, we employ
-                highly-skilled and well-rounded staff as we emphasize on fitting
-                the right person to the right job to ensure customers’
-                satisfaction. The company’s growth is largely attributed to
-                motivating and empowering our employees at all levels, ensuring
-                that every single member of our team feels fulfilled and
-                enriched in their day-to-day operations. Besides that, training
-                opportunities are frequently provided internally and
-                supplemented with sponsored courses by relevant providers.
-              </p>
-              <Project2 />
-            </div>
-          </div>
-        </div>
-        <div className="row justify-content-center container-resources project-margin">
-          <div className="col-md-6 p-0">
-            <img
-              src={resourcesImg}
-              className="about-image-1 project-height"
-              alt="..."
-            />
-          </div>
-          <div className="col-md-6">
-            <div className="about-title">
-              <h1 className="mt-3">VINCA</h1>
-              <p className="subtitle">
-                They are not human resources. They are resourceful humans
-              </p>
-            </div>
-            <div className="about-description">
-              <p>
-                As one of the larger shipyard company in Batam, we employ
-                highly-skilled and well-rounded staff as we emphasize on fitting
-                the right person to the right job to ensure customers’
-                satisfaction. The company’s growth is largely attributed to
-                motivating and empowering our employees at all levels, ensuring
-                that every single member of our team feels fulfilled and
-                enriched in their day-to-day operations. Besides that, training
-                opportunities are frequently provided internally and
-                supplemented with sponsored courses by relevant providers.
-              </p>
-              <Project3 />
-            </div>
-          </div>
-        </div>
-        <div className="row justify-content-center container-resources project-margin">
-          <div className="col-md-6 p-0">
-            <img
-              src={resourcesImg}
-              className="about-image-1 project-height"
-              alt="..."
-            />
-          </div>
-          <div className="col-md-6">
-            <div className="about-title">
-              <h1 className="mt-3">OUR TEAM</h1>
-              <p className="subtitle">
-                They are not human resources. They are resourceful humans
-              </p>
-            </div>
-            <div className="about-description">
-              <p>
-                As one of the larger shipyard company in Batam, we employ
-                highly-skilled and well-rounded staff as we emphasize on fitting
-                the right person to the right job to ensure customers’
-                satisfaction. The company’s growth is largely attributed to
-                motivating and empowering our employees at all levels, ensuring
-                that every single member of our team feels fulfilled and
-                enriched in their day-to-day operations. Besides that, training
-                opportunities are frequently provided internally and
-                supplemented with sponsored courses by relevant providers.
-              </p>
-              <Project4 />
-            </div>
-          </div>
-        </div>
-        <div className="row justify-content-center container-resources project-margin">
-          <div className="col-md-6 p-0">
-            <img
-              src={resourcesImg}
-              className="about-image-1 project-height"
-              alt="..."
-            />
-          </div>
-          <div className="col-md-6">
-            <div className="about-title">
-              <h1 className="mt-3">OUR TEAM</h1>
-              <p className="subtitle">
-                They are not human resources. They are resourceful humans
-              </p>
-            </div>
-            <div className="about-description">
-              <p>
-                As one of the larger shipyard company in Batam, we employ
-                highly-skilled and well-rounded staff as we emphasize on fitting
-                the right person to the right job to ensure customers’
-                satisfaction. The company’s growth is largely attributed to
-                motivating and empowering our employees at all levels, ensuring
-                that every single member of our team feels fulfilled and
-                enriched in their day-to-day operations. Besides that, training
-                opportunities are frequently provided internally and
-                supplemented with sponsored courses by relevant providers.
-              </p>
-              <Project5 />
-            </div>
-          </div>
-        </div>
-      </Carousel>
-    </div>
+      {/* <Tools /> */}
+    </>
   );
 };
 
