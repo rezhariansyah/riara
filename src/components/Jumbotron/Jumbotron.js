@@ -29,11 +29,11 @@ const Banner = (props) => {
                   className="fa fa-pinterest-square icons"
                   aria-hidden="true"
                 />
-                <a href="mailto:hello@riara.co?subject=Hello, I want more info about the shipbuilding" rel="noopener noreferrer">
+                <a href="mailto:hello@riara.co?subject=Hello, I want more info about the Phinisi" rel="noopener noreferrer">
                   <i className="fa fa-envelope-o icons" aria-hidden="true" />
                 </a>
 
-                <a href="https://wa.link/jr8r6k" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.link/48ta3n" target="_blank" rel="noopener noreferrer">
                   <i className="fa fa-whatsapp icons" aria-hidden="true" />
                 </a>
               </p>

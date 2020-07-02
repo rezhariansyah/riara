@@ -1,0 +1,54 @@
+.mission-vission-wrapper {
+  background-size: cover;
+  height: 498px;
+  width: 100%;
+  object-fit: cover;
+  background-image: url("../../assets/about/backgroundVission.jpg");
+  background-position: center;
+}
+
+.mission-vission-desc {
+  color: white;
+  padding: 30px;
+  text-align: justify;
+}
+
+.title-mission {
+  color: #e0a800;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mission-vission-desc {
+    color: white;
+    padding: 30px;
+    text-align: justify;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  .mission-vission-desc {
+    color: white;
+    padding: 20px;
+    text-align: justify;
+    font-size: smaller !important;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .mission-vission-desc {
+    color: white;
+    padding: 20px;
+    text-align: justify;
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .mission-vission-desc {
+    color: white;
+    padding: 20px;
+    text-align: justify;
+    font-size: 11px !important;
+  }
+}
