@@ -41,7 +41,7 @@ const Projects = () => {
             <h1 className="title-about">PROJECTS</h1>
           </div>
         </div>
-        <Carousel responsive={responsive}>
+        <Carousel responsive={responsive} infinite={true}>
           <div className="row justify-content-center container-resources project-margin">
             <div className="col-md-6 p-0">
               <img src={papiton} className="project-img img-fluid" alt="..." />
