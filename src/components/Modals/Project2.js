@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
-import img1 from "../../assets/projects/popup-princess-hemelly.jpg";
+import { Button, Modal, ModalHeader, ModalBody } from "reactstrap";
+import img1 from "../../assets/projects/papiton-duwa.png";
+import "./ProjectModal.css";
 
-const Project2 = (props) => {
+const Project4 = (props) => {
   const { buttonLabel = "VIEW PROJECT", className = "modal-lg" } = props;
 
   const [modal, setModal] = useState(false);
@@ -15,21 +16,15 @@ const Project2 = (props) => {
         {buttonLabel}
       </Button>
       <Modal isOpen={modal} toggle={toggle} className={className}>
-        <ModalHeader toggle={toggle}>PAPITON LOPI</ModalHeader>
+        <ModalHeader toggle={toggle}>PAPITON DUWA</ModalHeader>
         <ModalBody>
-          <img src={img1} alt="..." className="about-image-1" />
+          <div className="text-center">
+            <img src={img1} alt="..." className="anjani-image" />
+          </div>
         </ModalBody>
-        <ModalFooter>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-            consequatur optio sapiente. Aut mollitia a sequi similique soluta,
-            voluptatem nisi optio reiciendis eum cumque quibusdam temporibus
-            ducimus labore neque vel!
-          </p>
-        </ModalFooter>
       </Modal>
     </div>
   );
 };
 
-export default Project2;
+export default Project4;

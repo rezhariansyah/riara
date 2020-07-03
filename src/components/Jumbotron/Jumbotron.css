@@ -113,6 +113,22 @@
     font-size: 35px;
     font-weight: 100;
     text-align: left;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .wrapping-jumbotron {
+    margin-top: 55px;
+    position: relative;
+  }
+
+  .jumbotron-body {
+    height: 110vh;
+    background: url(../../assets/banner/mobile-banner.JPG);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
   }
 
   .bold {

@@ -11,9 +11,9 @@ const Banner = (props) => {
           <div className="container">
             <div className="center-content">
               <p className="quote-banter">
-                We believe that <span className="bold">customer</span>{" "}
-                satisfaction is the greatest{" "}
-                <span className="bold">achievment</span>
+                We believe that customer{" "}
+                <span className="bold">satisfaction</span> is the greatest
+                <span className="bold">{" "}achievment</span>
               </p>
               <p className="list-icon">
                 <a
@@ -29,11 +29,18 @@ const Banner = (props) => {
                   className="fa fa-pinterest-square icons"
                   aria-hidden="true"
                 />
-                <a href="mailto:hello@riara.co?subject=Hello, I want more info about the Phinisi" rel="noopener noreferrer">
+                <a
+                  href="mailto:hello@riara.co?subject=Hello, I want more info about the Phinisi"
+                  rel="noopener noreferrer"
+                >
                   <i className="fa fa-envelope-o icons" aria-hidden="true" />
                 </a>
 
-                <a href="https://wa.link/48ta3n" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://wa.link/48ta3n"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="fa fa-whatsapp icons" aria-hidden="true" />
                 </a>
               </p>
