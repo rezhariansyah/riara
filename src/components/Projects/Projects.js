@@ -125,7 +125,7 @@ const Projects = () => {
           </div>
           <div className="row justify-content-center container-resources project-margin">
             <div className="col-md-6 p-0">
-              <img src={anjani} className="img-fluid" alt="..." />
+              <img src={anjani} className="project-img img-fluid" alt="..." />
             </div>
             <div className="col-md-6">
               <div className="about-title">
