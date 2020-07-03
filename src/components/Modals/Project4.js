@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
-import img1 from "../../assets/projects/popup-princess-hemelly.jpg";
+import img1 from "../../assets/projects/anjani-voyage.png";
+import "./ProjectModal.css";
 
 const Project4 = (props) => {
   const { buttonLabel = "VIEW PROJECT", className = "modal-lg" } = props;
@@ -15,9 +16,11 @@ const Project4 = (props) => {
         {buttonLabel}
       </Button>
       <Modal isOpen={modal} toggle={toggle} className={className}>
-        <ModalHeader toggle={toggle}>PAPITON LOPI</ModalHeader>
+        <ModalHeader toggle={toggle}>ANJANI</ModalHeader>
         <ModalBody>
-          <img src={img1} alt="..." className="about-image-1" />
+          <div className="text-center">
+            <img src={img1} alt="..." className="anjani-image" />
+          </div>
         </ModalBody>
         <ModalFooter>
           <p>

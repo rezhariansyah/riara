@@ -143,7 +143,7 @@ const Projects = () => {
             </div>
             <div className="col-md-6">
               <div className="about-title">
-                <h1 className="mt-3">OUR TEAM</h1>
+                <h1 className="mt-3">ANJANI</h1>
                 <p className="subtitle">
                   They are not human resources. They are resourceful humans
                 </p>
