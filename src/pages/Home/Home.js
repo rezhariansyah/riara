@@ -170,7 +170,7 @@ export default class Home extends Component {
                     scrollToComponent(this.WhoWeAre, {
                       offset: 600,
                       align: "top",
-                      duration: 1000,
+                      duration: 500,
                       ease: "inCirc",
                     })
                   }
@@ -184,7 +184,7 @@ export default class Home extends Component {
                     scrollToComponent(this.WhatWeDo, {
                       offset: 20,
                       align: "top",
-                      duration: 1000,
+                      duration: 500,
                       ease: "inCirc",
                     })
                   }
@@ -197,7 +197,7 @@ export default class Home extends Component {
                   scrollToComponent(this.OurProjects, {
                     offset: 20,
                     align: "top",
-                    duration: 1000,
+                    duration: 500,
                     ease: "inCirc",
                   })
                 }
@@ -209,7 +209,7 @@ export default class Home extends Component {
                   scrollToComponent(this.Resources, {
                     offset: 20,
                     align: "top",
-                    duration: 1000,
+                    duration: 500,
                     ease: "inCirc",
                   })
                 }
@@ -221,7 +221,7 @@ export default class Home extends Component {
                   scrollToComponent(this.Clients, {
                     offset: 20,
                     align: "top",
-                    duration: 1000,
+                    duration: 500,
                     ease: "inCirc",
                   })
                 }
@@ -233,7 +233,7 @@ export default class Home extends Component {
                   scrollToComponent(this.GetInTouch, {
                     offset: -80,
                     align: "top",
-                    duration: 1000,
+                    duration: 500,
                     ease: "inCirc",
                   })
                 }
