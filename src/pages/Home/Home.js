@@ -5,7 +5,6 @@ import About from "../../components/About/About";
 import MyCarousel from "../../components/Facilities/Facilities";
 import Resources from "../../components/Resources/Resources";
 import Clients from "../../components/Clients/Clients";
-import Footer from "../../components/Footer/Footer";
 import Contact from "../../components/Contact/Contact";
 import Projects from "../../components/Projects/Projects";
 import {
