@@ -301,7 +301,88 @@ export default class Home extends Component {
         >
           <Contact />
         </section>
-        <Footer />
+        <div className="footer-wrapper">
+          <div className="footer-overlay">
+            <div className="container footer-inner">
+              <div className="container">
+                <div className="row justify-content-center">
+                  <div className="col-md-8">
+                    <hr style={{ backgroundColor: "white" }} />
+                  </div>
+                </div>
+              </div>
+              <div className="row justify-content-center text-center">
+                <div className="col-6 col-md-2">
+                  <NavLink
+                    onClick={() =>
+                      scrollToComponent(this.WhoWeAre, {
+                        offset: -200,
+                        align: "top",
+                        duration: 500,
+                        ease: "inCirc",
+                      })
+                    }
+                    style={{cursor:"pointer"}}
+                  >
+                    WHO WE ARE
+                  </NavLink>
+                </div>
+                <div className="col-6 col-md-2">
+                  <NavLink
+                    onClick={() =>
+                      scrollToComponent(this.WhatWeDo, {
+                        offset: -200,
+                        align: "top",
+                        duration: 500,
+                        ease: "inCirc",
+                      })
+                    }
+                    style={{cursor:"pointer"}}
+                  >
+                    WHAT WE DO
+                  </NavLink>
+                </div>
+                <div className="col-6 col-md-2">
+                  <NavLink
+                    onClick={() =>
+                      scrollToComponent(this.OurProjects, {
+                        offset: -200,
+                        align: "top",
+                        duration: 500,
+                        ease: "inCirc",
+                      })
+                    }
+                    style={{cursor:"pointer"}}
+                  >
+                    PROJECTS
+                  </NavLink>
+                </div>
+                <div className="col-6 col-md-2">
+                  <NavLink
+                    onClick={() =>
+                      scrollToComponent(this.GetInTouch, {
+                        offset: -200,
+                        align: "top",
+                        duration: 500,
+                        ease: "inCirc",
+                      })
+                    }
+                    style={{cursor:"pointer"}}
+                  >
+                    CONTACT
+                  </NavLink>
+                </div>
+              </div>
+              <div className="container">
+                <div className="row justify-content-center">
+                  <div className="col-md-8">
+                    <hr style={{ backgroundColor: "white" }} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

@@ -3,6 +3,10 @@
   position: relative;
 }
 
+.hashtag {
+  font-size: 22px;
+}
+
 .quote-banter {
   font-size: 50px;
   font-weight: 100;
@@ -115,6 +119,10 @@
     text-align: left;
     margin-right: 15px;
     margin-left: 15px;
+  }
+
+  .hashtag {
+    font-size: 16px;
   }
 
   .wrapping-jumbotron {

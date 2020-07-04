@@ -13,7 +13,7 @@ const Banner = (props) => {
               <p className="quote-banter">
                 We believe that customer{" "}
                 <span className="bold">satisfaction</span> is the greatest
-                <span className="bold">{" "}achievment</span>
+                <span className="bold"> achievment</span> <br />
               </p>
               <p className="list-icon">
                 <a
