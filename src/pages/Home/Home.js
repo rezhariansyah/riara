@@ -182,7 +182,7 @@ export default class Home extends Component {
                 <NavLink
                   onClick={() =>
                     scrollToComponent(this.WhatWeDo, {
-                      offset: 20,
+                      offset: -40,
                       align: "top",
                       duration: 500,
                       ease: "inCirc",
@@ -195,7 +195,7 @@ export default class Home extends Component {
               <NavItem
                 onClick={() =>
                   scrollToComponent(this.OurProjects, {
-                    offset: 20,
+                    offset: -40,
                     align: "top",
                     duration: 500,
                     ease: "inCirc",
@@ -207,7 +207,7 @@ export default class Home extends Component {
               <NavItem
                 onClick={() =>
                   scrollToComponent(this.Resources, {
-                    offset: 20,
+                    offset: -40,
                     align: "top",
                     duration: 500,
                     ease: "inCirc",
@@ -219,7 +219,7 @@ export default class Home extends Component {
               <NavItem
                 onClick={() =>
                   scrollToComponent(this.Clients, {
-                    offset: 20,
+                    offset: -40,
                     align: "top",
                     duration: 500,
                     ease: "inCirc",

@@ -8,7 +8,7 @@ const BigQuote = () => {
       <div className="col-md-6 text-center">
         <div className="container">
           <p className="quote">
-            We cant control the weather, but we can control the schedule, quality, cost, and safety
+            We can't control the weather, but we can control the schedule, quality, cost, and safety
           </p>
         </div>
 

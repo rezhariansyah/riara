@@ -9,13 +9,15 @@ const Contact = () => {
         <div className="container container-about">
           <div className="row">
             <div className="col-md-3">
-              <div className="container" style={{paddingRight:"0px"}}>
+              <div className="container" style={{ paddingRight: "0px" }}>
                 <div className="contact-title">
-                  <p>TALK TO AN ENGINEER <br/> OR PRODUCT MANAGER</p>
+                  <p>
+                    TALK TO AN ENGINEER <br /> OR PRODUCT MANAGER
+                  </p>
                 </div>
 
                 <br />
-                <div className="about-description detail-contact">
+                <div className="about-description detail-contact mb-4">
                   <h5 style={{ color: "#17A2BF" }}>RIARA</h5>
                   <p>
                     Desa Ara <br /> Bulukumba <br /> Sulawesi Selatan <br />{" "}
@@ -24,6 +26,13 @@ const Contact = () => {
                     <br /> Indonesia Bussiness Hours <br /> Monday - Saturday{" "}
                     <br /> 08.00 AM - 05.00 PM (WITA)
                   </p>
+                  <button
+                    type="button"
+                    onClick={() => window.open("https://wa.link/48ta3n", "_blank")}
+                    className="btn btn-warning"
+                  >
+                    LET'S TALK
+                  </button>
                 </div>
               </div>
             </div>
