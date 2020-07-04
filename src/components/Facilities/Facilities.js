@@ -11,19 +11,18 @@ class MyCarousel extends Component {
   static get CONTAINER_STYLE() {
     return {
       position: "relative",
-      height: "600px",
+      height: "450px",
       width: "100%",
       display: "flex",
       flex: 1,
       justifyContent: "center",
-      alignItems: "middle",
     };
   }
   render() {
     return (
       <>
         <div className="container">
-          <div className="row justify-content-center mb-5">
+          <div className="row justify-content-center">
             <div className="col-md-5 title-section">
               <p className="subtitle-about">W H A T</p>
               <h1 className="title-about">WE DO</h1>

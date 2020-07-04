@@ -4,7 +4,7 @@ import img1 from "../../assets/projects/anjani.png";
 import "./ProjectModal.css";
 
 const Project4 = (props) => {
-  const { buttonLabel = "VIEW PROJECT", className = "modal-lg" } = props;
+  const { buttonLabel = "VIEW PROJECT", className = "modal-lg modal-dialog-centered" } = props;
 
   const [modal, setModal] = useState(false);
 

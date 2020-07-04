@@ -17,7 +17,7 @@ const Clients = () => {
               <h1 className="title-about">CLIENTS</h1>
             </div>
           </div>
-          <div className="row justify-content-center text-center flex-wrap align-items-center mt-5">
+          <div className="row justify-content-center text-center flex-wrap align-items-center clients-margin">
             <div className="col-4 col-md-2">
               <img src={papiton} alt="" className="client-collab" />
             </div>

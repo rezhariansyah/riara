@@ -47,9 +47,9 @@ export default class Home extends Component {
                 <NavLink
                   onClick={() =>
                     scrollToComponent(this.WhoWeAre, {
-                      offset: 20,
-                      align: "bottom",
-                      duration: 1000,
+                      offset: -100,
+                      align: "top",
+                      duration: 500,
                       ease: "inCirc",
                     })
                   }
@@ -65,7 +65,7 @@ export default class Home extends Component {
                     scrollToComponent(this.WhatWeDo, {
                       offset: -20,
                       align: "top",
-                      duration: 1000,
+                      duration: 500,
                       ease: "inCirc",
                     })
                   }

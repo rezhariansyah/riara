@@ -6,6 +6,10 @@
   .client-collab {
     width: 90px !important;
   }
+
+  .clients-margin {
+    margin-top: 0px !important;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -18,13 +22,16 @@
   }
 }
 
-@media only screen and (max-width: 428px) {
+@media only screen and (max-width: 600px) {
   .web-collab {
     margin-top: 0px !important;
   }
 
   .client-collab {
     width: 80px !important;
+  }
+  .clients-margin {
+    margin-top: 50px !important;
   }
 }
 
@@ -42,6 +49,6 @@
 }
 
 .clients-wrapper {
-    margin-top: 150px;
-    padding-bottom: 60px;
+  margin-top: 150px;
+  padding-bottom: 60px;
 }

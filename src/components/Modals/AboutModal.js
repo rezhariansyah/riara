@@ -3,7 +3,7 @@ import { Button, Modal, ModalHeader, ModalBody } from "reactstrap";
 import "./AboutModal.css";
 
 const AboutModal = (props) => {
-  const { buttonLabel = "MISSION AND VISSION", className = "modal-lg" } = props;
+  const { buttonLabel = "MISSION AND VISSION", className = "modal-lg modal-dialog-centered" } = props;
 
   const [modal, setModal] = useState(false);
 

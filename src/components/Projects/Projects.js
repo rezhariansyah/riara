@@ -35,7 +35,7 @@ const Projects = () => {
   return (
     <>
       <div className="container">
-        <div className="row justify-content-center mb-5">
+        <div className="row justify-content-center resources-margin">
           <div className="col-md-5 title-section">
             <p className="subtitle-about">O U R</p>
             <h1 className="title-about">PROJECTS</h1>

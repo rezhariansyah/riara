@@ -3,7 +3,7 @@ import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import img1 from "../../assets/projects/popup-princess-hemelly.jpg";
 
 const Project5 = (props) => {
-  const { buttonLabel = "VIEW PROJECT", className = "modal-lg" } = props;
+  const { buttonLabel = "VIEW PROJECT", className = "modal-lg modal-dialog-centered" } = props;
 
   const [modal, setModal] = useState(false);
 
