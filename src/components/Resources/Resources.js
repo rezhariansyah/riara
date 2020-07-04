@@ -14,13 +14,13 @@ const Resources = () => {
         </div>
       </div>
       <div className="container container-resources">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center flex-wrap align-items-center">
           <div className="col-md-6 p-0">
             <img src={resourcesImg} className="about-image-1" alt="..." />
           </div>
           <div className="col-md-6">
             <div className="about-title">
-              <h1 className="mt-3">OUR TEAM</h1>
+              <h1 className="mt-3 mb-3">OUR TEAM</h1>
               <p className="subtitle">Together Everyone Accomplish More</p>
             </div>
             <div className="about-description">
