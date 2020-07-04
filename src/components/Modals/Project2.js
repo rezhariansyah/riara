@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, Modal, ModalHeader, ModalBody } from "reactstrap";
-import img1 from "../../assets/projects/papiton-duwa.png";
+import img1 from "../../assets/projects/papitonDuwa/papiton-duwa-modal.jpg";
 import "./ProjectModal.css";
 
 const Project4 = (props) => {

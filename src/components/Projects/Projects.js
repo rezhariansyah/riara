@@ -1,10 +1,10 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import React from "react";
-import papiton from "../../assets/projects/papiton.JPG";
-import lopiDuwa from "../../assets/projects/lopi-duwa.jpg";
-import vinca from "../../assets/projects/vinca.jpg";
-import anjani from "../../assets/projects/anjani.jpg";
+import papiton from "../../assets/projects/papitonLopi/papiton.jpg";
+import lopiDuwa from "../../assets/projects/papitonDuwa/papiton-duwa.jpg";
+import vinca from "../../assets/projects/vinca/vinca.jpg";
+import anjani from "../../assets/projects/anjaniVoyage/anjani.jpg";
 import "./Projects.css";
 import Project1 from "../Modals/Project1";
 import Project2 from "../Modals/Project2";
@@ -75,7 +75,7 @@ const Projects = () => {
             </div>
             <div className="col-md-6">
               <div className="about-title">
-                <h1 className="mt-3">LOPI DUWA</h1>
+                <h1 className="mt-3">PAPITON DUWA</h1>
                 <p className="subtitle">
                   They are not human resources. They are resourceful humans
                 </p>

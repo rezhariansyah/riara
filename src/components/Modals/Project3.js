@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, Modal, ModalHeader, ModalBody } from "reactstrap";
-import img1 from "../../assets/projects/vinca-modal.png";
+import img1 from "../../assets/projects/vinca/vinca-modal.jpg";
 import "./ProjectModal.css";
 
 const Project4 = (props) => {

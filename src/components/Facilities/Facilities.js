@@ -39,7 +39,7 @@ class MyCarousel extends Component {
               />
               <div className="card-body">
                 <h5 className="card-title text-center">Ship Building</h5>
-                <p className="card-text desc-what-we-do text-justify">
+                <p className="card-text desc-what-we-do">
                   It is our capability to build phinisi and fiberglass boat to
                   meet various demands for our clients. Riara Indonesia has
                   gained experience on building phinisi boat.
@@ -54,7 +54,7 @@ class MyCarousel extends Component {
               />
               <div className="card-body">
                 <h5 className="card-title text-center">Wood Fabrication</h5>
-                <p className="card-text desc-what-we-do text-justify">
+                <p className="card-text desc-what-we-do">
                   We offer specialist workshops and open fabrication are with
                   woodworking tools for made interior set
                 </p>
@@ -68,7 +68,7 @@ class MyCarousel extends Component {
               />
               <div className="card-body">
                 <h5 className="card-title text-center">Naval Architecture</h5>
-                <p className="card-text desc-what-we-do text-justify">
+                <p className="card-text desc-what-we-do">
                   We provide ship consultant services for design engineers, for
                   ship building needs. Sush as general arrangement, exterior and
                   interios design, 3D layout, intact stability, ship structure,
@@ -84,7 +84,7 @@ class MyCarousel extends Component {
               />
               <div className="card-body">
                 <h5 className="card-title text-center">Ship Management</h5>
-                <p className="card-text desc-what-we-do text-justify">
+                <p className="card-text desc-what-we-do">
                   We collaborate with tour and travel services, we will provide
                   advice for proper ship management. So we can confidently solve
                   it in the sea transportation business
@@ -99,7 +99,7 @@ class MyCarousel extends Component {
               />
               <div className="card-body">
                 <h5 className="card-title text-center">Branding</h5>
-                <p className="card-text desc-what-we-do text-justify">
+                <p className="card-text desc-what-we-do">
                   The most important part in marketing. We can also help you to
                   branding your boar. ranging from website creation to promotion
                 </p>
