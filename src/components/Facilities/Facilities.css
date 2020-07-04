@@ -5,9 +5,9 @@
 }
 
 .title-section {
-  margin-top: 100px;
+  margin-top: 50px;
   border-left: solid 5px #17a2bf;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .subtitle-about {
@@ -70,10 +70,10 @@
 
 @media only screen and (max-width: 600px) {
   .title-section {
-    margin-top: 50px;
+    margin-top: 60px !important;
     border-left: solid 5px #17a2bf;
     margin-left: 22%;
-    margin-bottom: 0px;
+    margin-bottom: 0px !important;
   }
   .subtitle-about {
     font-size: 12px;

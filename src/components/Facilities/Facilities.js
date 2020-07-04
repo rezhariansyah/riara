@@ -6,6 +6,7 @@ import imageCard3 from "../../assets/facilities/shipManagement.jpg";
 import imageCard4 from "../../assets/facilities/navalArchitecture.jpg";
 import imageCard5 from "../../assets/facilities/branding.jpg";
 import "./Facilities.css";
+import Tools from "../Tools/Tools";
 
 class MyCarousel extends Component {
   static get CONTAINER_STYLE() {
@@ -107,6 +108,7 @@ class MyCarousel extends Component {
             </div>
           </ReactCardCarousel>
         </div>
+        <Tools />
       </>
     );
   }

@@ -168,7 +168,7 @@ export default class Home extends Component {
                 <NavLink
                   onClick={() =>
                     scrollToComponent(this.WhoWeAre, {
-                      offset: 600,
+                      offset: 420,
                       align: "top",
                       duration: 500,
                       ease: "inCirc",
@@ -182,7 +182,7 @@ export default class Home extends Component {
                 <NavLink
                   onClick={() =>
                     scrollToComponent(this.WhatWeDo, {
-                      offset: -40,
+                      offset: -280,
                       align: "top",
                       duration: 500,
                       ease: "inCirc",
@@ -195,7 +195,7 @@ export default class Home extends Component {
               <NavItem
                 onClick={() =>
                   scrollToComponent(this.OurProjects, {
-                    offset: -40,
+                    offset: -250,
                     align: "top",
                     duration: 500,
                     ease: "inCirc",
@@ -207,7 +207,7 @@ export default class Home extends Component {
               <NavItem
                 onClick={() =>
                   scrollToComponent(this.Resources, {
-                    offset: -40,
+                    offset: -280,
                     align: "top",
                     duration: 500,
                     ease: "inCirc",
@@ -219,7 +219,7 @@ export default class Home extends Component {
               <NavItem
                 onClick={() =>
                   scrollToComponent(this.Clients, {
-                    offset: -40,
+                    offset: -270,
                     align: "top",
                     duration: 500,
                     ease: "inCirc",
@@ -231,7 +231,7 @@ export default class Home extends Component {
               <NavItem
                 onClick={() =>
                   scrollToComponent(this.GetInTouch, {
-                    offset: -80,
+                    offset: -300,
                     align: "top",
                     duration: 500,
                     ease: "inCirc",
