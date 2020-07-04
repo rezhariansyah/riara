@@ -4,7 +4,7 @@ import React from "react";
 import papiton from "../../assets/projects/papitonLopi/papiton.jpg";
 import lopiDuwa from "../../assets/projects/papitonDuwa/papiton-duwa.jpg";
 import vinca from "../../assets/projects/vinca/vinca.jpg";
-import anjani from "../../assets/projects/anjaniVoyage/anjani.jpg";
+import anjani from "../../assets/projects/IMG_0579.JPG";
 import "./Projects.css";
 import Project1 from "../Modals/Project1";
 import Project2 from "../Modals/Project2";
