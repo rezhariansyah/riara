@@ -30,7 +30,7 @@
 
 .jumbotron-body {
   height: 110vh;
-  background: url(../../assets/banner/DSCF9247.jpg);
+  background: url("https://riarariara.b-cdn.net/banner/DSCF9247.jpg");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -132,7 +132,7 @@
 
   .jumbotron-body {
     height: 110vh;
-    background: url(../../assets/banner/mobile-banner.JPG);
+    background: url("https://riarariara.b-cdn.net/banner/mobile-banner.JPG");
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;

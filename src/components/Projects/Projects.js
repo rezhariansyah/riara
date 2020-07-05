@@ -42,7 +42,7 @@ const Projects = () => {
           </div>
         </div>
         <Carousel responsive={responsive} infinite={true}>
-          <div className="row justify-content-center container-resources project-margin flex-wrap align-items-center">
+          <div className="row justify-content-center container-resources project-margin">
             <div className="col-md-6 p-0">
               <img src={papiton} className="project-img img-fluid" alt="..." />
             </div>
@@ -63,7 +63,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="row justify-content-center container-resources project-margin flex-wrap align-items-center">
+          <div className="row justify-content-center container-resources project-margin">
             <div className="col-md-6 p-0">
               <img src={lopiDuwa} className="project-img img-fluid" alt="..." />
             </div>
@@ -83,7 +83,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="row justify-content-center container-resources project-margin flex-wrap align-items-center">
+          <div className="row justify-content-center container-resources project-margin">
             <div className="col-md-6 p-0">
               <img src={vinca} className="project-img img-fluid" alt="..." />
             </div>
@@ -106,7 +106,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="row justify-content-center container-resources project-margin flex-wrap align-items-center">
+          <div className="row justify-content-center container-resources project-margin">
             <div className="col-md-6 p-0">
               <img src={anjani} className="project-img img-fluid" alt="..." />
             </div>

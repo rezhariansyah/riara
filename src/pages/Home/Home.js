@@ -52,6 +52,7 @@ export default class Home extends Component {
                       ease: "inCirc",
                     })
                   }
+                  className="footer-nav"
                 >
                   WHO WE ARE
                 </NavLink>
@@ -321,7 +322,7 @@ export default class Home extends Component {
                         ease: "inCirc",
                       })
                     }
-                    style={{cursor:"pointer"}}
+                    className="footer-nav"
                   >
                     WHO WE ARE
                   </NavLink>
@@ -337,6 +338,7 @@ export default class Home extends Component {
                       })
                     }
                     style={{cursor:"pointer"}}
+                    className="footer-nav"
                   >
                     WHAT WE DO
                   </NavLink>
@@ -352,6 +354,7 @@ export default class Home extends Component {
                       })
                     }
                     style={{cursor:"pointer"}}
+                    className="footer-nav"
                   >
                     PROJECTS
                   </NavLink>
@@ -367,6 +370,7 @@ export default class Home extends Component {
                       })
                     }
                     style={{cursor:"pointer"}}
+                    className="footer-nav"
                   >
                     CONTACT
                   </NavLink>
