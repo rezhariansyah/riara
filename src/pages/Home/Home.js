@@ -16,7 +16,6 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
-import logo from "../../assets/logo/IMG_0462.PNG";
 import scrollToComponent from "react-scroll-to-component";
 import "./Home.css";
 
@@ -102,7 +101,7 @@ export default class Home extends Component {
                     })
                   }
                 >
-                  <img src={logo} className="logo-riara" alt="logo-riara" />
+                  <img src={"https://riarariara.b-cdn.net/IMG_0462.PNG"} className="logo-riara" alt="logo-riara" />
                 </NavbarBrand>
               </NavItem>
             </li>
@@ -159,7 +158,7 @@ export default class Home extends Component {
           expand="md"
         >
           <NavbarBrand href="/">
-            <img src={logo} className="logo-riara" alt="logo-riara" />
+            <img src={"https://riarariara.b-cdn.net/IMG_0462.PNG"} className="logo-riara" alt="logo-riara" />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} className="mr-auto" />
           <Collapse isOpen={this.state.isOpen} navbar>
