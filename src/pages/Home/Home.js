@@ -18,7 +18,7 @@ import {
 } from "reactstrap";
 import scrollToComponent from "react-scroll-to-component";
 import "./Home.css";
-import Model from "../../components/model/Model";
+// import Model from "../../components/model/Model";
 
 export default class Home extends Component {
   constructor(props) {
@@ -270,10 +270,9 @@ export default class Home extends Component {
         >
           <About />
         </section>
-        <div style={{height:"800px", display:"block"}}>
+        {/* <div style={{height:"800px", display:"block"}}>
           <Model />
-        </div>
-        <Model />
+        </div> */}
         <section
           className="WhatWeDo"
           ref={(section) => {
