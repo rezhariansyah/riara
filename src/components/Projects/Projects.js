@@ -34,7 +34,7 @@ const responsive = {
 const Projects = () => {
   return (
     <>
-      <div className="container">
+      <div className="container" style={{padding:"0px"}}>
         <div className="row justify-content-center resources-margin">
           <div className="col-md-5 title-section">
             <p className="subtitle-about">O U R</p>
@@ -44,9 +44,9 @@ const Projects = () => {
         <Carousel responsive={responsive} infinite={true}>
           <div className="row justify-content-center container-resources project-margin">
             <div className="col-md-6 p-0">
-              <img src={papiton} className="project-img img-fluid" alt="..." />
+              <img src={papiton} className="project-img img-fluid" alt="..."/>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 caption-projects">
               <div className="about-title">
                 <h1 className="mt-3">PAPITON LOPI</h1>
                 <p className="subtitle">begin your odyssey</p>
@@ -65,9 +65,9 @@ const Projects = () => {
           </div>
           <div className="row justify-content-center container-resources project-margin">
             <div className="col-md-6 p-0">
-              <img src={lopiDuwa} className="project-img img-fluid" alt="..." />
+              <img src={lopiDuwa} className="project-img img-fluid" alt="..."/>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 caption-projects">
               <div className="about-title">
                 <h1 className="mt-3">PAPITON DUWA</h1>
                 <p className="subtitle">begin your odyssey</p>
@@ -85,14 +85,12 @@ const Projects = () => {
           </div>
           <div className="row justify-content-center container-resources project-margin">
             <div className="col-md-6 p-0">
-              <img src={vinca} className="project-img img-fluid" alt="..." />
+              <img src={vinca} className="project-img img-fluid" alt="..."/>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 caption-projects">
               <div className="about-title">
                 <h1 className="mt-3">VINCA</h1>
-                <p className="subtitle">
-                  A journey to wonderfull place
-                </p>
+                <p className="subtitle">A journey to wonderfull place</p>
               </div>
               <div className="about-description">
                 <p>
@@ -108,14 +106,12 @@ const Projects = () => {
           </div>
           <div className="row justify-content-center container-resources project-margin">
             <div className="col-md-6 p-0">
-              <img src={anjani} className="project-img img-fluid" alt="..." />
+              <img src={anjani} className="project-img img-fluid" alt="..."/>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 caption-projects">
               <div className="about-title">
                 <h1 className="mt-3">ANJANI VOYAGE</h1>
-                <p className="subtitle">
-                  Your trip solution
-                </p>
+                <p className="subtitle">Your trip solution</p>
               </div>
               <div className="about-description">
                 <p>
@@ -130,7 +126,6 @@ const Projects = () => {
           </div>
         </Carousel>
       </div>
-      {/* <Tools /> */}
     </>
   );
 };

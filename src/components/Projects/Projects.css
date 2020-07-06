@@ -1,10 +1,10 @@
-.project-margin {
-  margin-left: 30px !important;
-  margin-right: 30px !important;
-}
 
 .hide {
   visibility: hidden;
+}
+
+.project-margin {
+  margin-left: 2px !important;
 }
 
 .modal-image {
