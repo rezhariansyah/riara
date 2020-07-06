@@ -10,6 +10,7 @@ import Project1 from "../Modals/Project1";
 import Project2 from "../Modals/Project2";
 import Project3 from "../Modals/Project3";
 import Project4 from "../Modals/Project4";
+// import Model from "../model/Model";
 
 const responsive = {
   superLargeDesktop: {
@@ -126,6 +127,7 @@ const Projects = () => {
           </div>
         </Carousel>
       </div>
+      {/* <Model /> */}
     </>
   );
 };

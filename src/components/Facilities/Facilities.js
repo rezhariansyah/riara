@@ -5,6 +5,7 @@ import imageCard2 from "../../assets/facilities/woodFabrication.jpg";
 import imageCard3 from "../../assets/facilities/shipManagement.jpg";
 import imageCard4 from "../../assets/facilities/navalArchitecture.jpg";
 import imageCard5 from "../../assets/facilities/branding.jpg";
+import imageCard6 from "../../assets/facilities/DSC09691.jpg";
 import "./Facilities.css";
 import Tools from "../Tools/Tools";
 
@@ -58,6 +59,22 @@ class MyCarousel extends Component {
                 <p className="card-text desc-what-we-do">
                   We offer specialist workshops and open fabrication are with
                   woodworking tools for made interior set
+                </p>
+              </div>
+            </div>
+            <div className="card card-facilities">
+              <img
+                className="card-img-top facility-image commersial"
+                src={imageCard6}
+                alt="..."
+              />
+              <div className="card-body">
+                <h5 className="card-title text-center">Commercial Services</h5>
+                <p className="card-text desc-what-we-do">
+                  With it's role as the independent assurance, Riara also
+                  conducting QA & QC (second party) to ensure business the
+                  customers running smoothly, guaranteed, safe and still
+                  develop.
                 </p>
               </div>
             </div>
