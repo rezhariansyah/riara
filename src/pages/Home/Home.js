@@ -18,6 +18,7 @@ import {
 } from "reactstrap";
 import scrollToComponent from "react-scroll-to-component";
 import "./Home.css";
+import Model from "../../components/model/Model";
 
 export default class Home extends Component {
   constructor(props) {
@@ -35,6 +36,7 @@ export default class Home extends Component {
       isOpen: !this.state.isOpen,
     });
   }
+
   render() {
     return (
       <div>
@@ -101,7 +103,11 @@ export default class Home extends Component {
                     })
                   }
                 >
-                  <img src={"https://riarariara.b-cdn.net/IMG_0462.PNG"} className="logo-riara" alt="logo-riara" />
+                  <img
+                    src={"https://riarariara.b-cdn.net/IMG_0462.PNG"}
+                    className="logo-riara"
+                    alt="logo-riara"
+                  />
                 </NavbarBrand>
               </NavItem>
             </li>
@@ -158,7 +164,11 @@ export default class Home extends Component {
           expand="md"
         >
           <NavbarBrand href="/">
-            <img src={"https://riarariara.b-cdn.net/IMG_0462.PNG"} className="logo-riara" alt="logo-riara" />
+            <img
+              src={"https://riarariara.b-cdn.net/IMG_0462.PNG"}
+              className="logo-riara"
+              alt="logo-riara"
+            />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} className="mr-auto" />
           <Collapse isOpen={this.state.isOpen} navbar>
@@ -260,6 +270,10 @@ export default class Home extends Component {
         >
           <About />
         </section>
+        <div style={{height:"800px", display:"block"}}>
+          <Model />
+        </div>
+        <Model />
         <section
           className="WhatWeDo"
           ref={(section) => {
@@ -292,6 +306,7 @@ export default class Home extends Component {
         >
           <Clients />
         </section>
+        {/* <div>{this.model()}</div> */}
         <section
           className="GetInTouch"
           ref={(section) => {
@@ -336,7 +351,7 @@ export default class Home extends Component {
                         ease: "inCirc",
                       })
                     }
-                    style={{cursor:"pointer"}}
+                    style={{ cursor: "pointer" }}
                     className="footer-nav"
                   >
                     WHAT WE DO
@@ -352,7 +367,7 @@ export default class Home extends Component {
                         ease: "inCirc",
                       })
                     }
-                    style={{cursor:"pointer"}}
+                    style={{ cursor: "pointer" }}
                     className="footer-nav"
                   >
                     PROJECTS
@@ -368,7 +383,7 @@ export default class Home extends Component {
                         ease: "inCirc",
                       })
                     }
-                    style={{cursor:"pointer"}}
+                    style={{ cursor: "pointer" }}
                     className="footer-nav"
                   >
                     CONTACT
