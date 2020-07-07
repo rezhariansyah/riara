@@ -1,9 +1,6 @@
 import React from "react";
 import "./About.css";
 import AboutModal from "../Modals/AboutModal";
-import aboutImage1 from "../../assets/about/image1.jpg";
-import aboutImage2 from "../../assets/about/image2.jpg";
-import aboutImage3 from "../../assets/about/image3.jpg";
 import OurCoreValue from "../OurCoreValue/OurCoreValue";
 
 const About = () => {
