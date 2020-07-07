@@ -109,4 +109,8 @@
   .title-value {
     border-right: solid 5px #17a2bf;
   }
+  .mobile-caption {
+    margin-left: 13px;
+    margin-right: 13px;
+  }
 }

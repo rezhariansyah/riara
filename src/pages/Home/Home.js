@@ -19,6 +19,7 @@ import {
 import scrollToComponent from "react-scroll-to-component";
 import "./Home.css";
 // import Model from "../../components/model/Model";
+// import Vr from "../../components/Modals/VR";
 
 export default class Home extends Component {
   constructor(props) {
@@ -288,6 +289,7 @@ export default class Home extends Component {
           }}
         >
           <Projects />
+          {/* <Vr /> */}
         </section>
         <section
           className="Resources"

@@ -55,7 +55,7 @@ const Projects = () => {
               <div className="about-description">
                 <p>
                   Our First Masterpiece. Wooden boat for leisure needs. Designed
-                  and constructed to meed the standards for both luxury living
+                  and constructed to meet the standards for both luxury living
                   and stability. This boat is incredibly stable on a rough sea
                   for the guest comfort. We design special features that are
                   very Instagramable "Bow Spirit"
@@ -78,7 +78,7 @@ const Projects = () => {
                   Sister's of Papiton Lopi. Recretiaonal phinisi boat can
                   accommodate up to 12 guest in beautifully furnished ensuite
                   cabins. As a leisure boat, this boat is perfect for traveller.
-                  Sailing are at Komodo National Park, Labuan Bajo, Indonesia.
+                  Sailing area at Komodo National Park, Labuan Bajo, Indonesia.
                 </p>
                 <Project2 />
               </div>

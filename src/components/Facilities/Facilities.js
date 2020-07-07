@@ -58,7 +58,8 @@ class MyCarousel extends Component {
                 <h5 className="card-title text-center">Wood Fabrication</h5>
                 <p className="card-text desc-what-we-do">
                   We offer specialist workshops and open fabrication are with
-                  woodworking tools for made interior set
+                  woodworking tools for made interior set. We can be your wood
+                  funiture solution.
                 </p>
               </div>
             </div>
@@ -69,7 +70,7 @@ class MyCarousel extends Component {
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title text-center">Commercial Services</h5>
+                <h5 className="card-title text-center" style={{fontSize:"18px"}}>Commercial Services</h5>
                 <p className="card-text desc-what-we-do">
                   With it's role as the independent assurance, Riara also
                   conducting QA & QC (second party) to ensure business the
@@ -119,7 +120,7 @@ class MyCarousel extends Component {
                 <h5 className="card-title text-center">Branding</h5>
                 <p className="card-text desc-what-we-do">
                   The most important part in marketing. We can also help you to
-                  branding your boar. ranging from website creation to promotion
+                  branding your boat. Ranging from website creation to promotion
                 </p>
               </div>
             </div>

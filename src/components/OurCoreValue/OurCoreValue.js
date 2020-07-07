@@ -3,7 +3,7 @@ import integrity from "../../assets/icons/data-security.png";
 import time from "../../assets/icons/hourglass.png";
 import creativity from "../../assets/icons/knowledge.png";
 import lessStress from "../../assets/icons/like.png";
-import "./OurCoreValue.css"
+import "./OurCoreValue.css";
 
 export default function OurCoreValue() {
   return (
@@ -42,8 +42,8 @@ export default function OurCoreValue() {
           <img src={lessStress} alt="..." className="icons-value" />
           <h5 className="sub-icons">Less Stress</h5>
           <p className="desc-value">
-            We have a quality system and work standards that remove the
-            hand-holding and stress often experienced with general fabricators
+            We have a quality system and work standards that relieve stress
+            often experienced with our engineer and handyman
           </p>
         </div>
       </div>

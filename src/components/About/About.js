@@ -26,7 +26,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-5">
+          <div className="col-md-5 mobile-caption">
             <div className="about-title">
               <h1 className="mt-3">WHO WE ARE</h1>
               <h4 style={{ color: "#17A2BF" }}>Riara Indonesia</h4>
@@ -51,7 +51,7 @@ const About = () => {
             </div>
             <div className="about-description">
               <p>
-                Our of box design makes our work different and unique. Making it
+                Out of box design makes our work different and unique. Making it
                 easier for the ouwner to market the product. For the sake of
                 preserving the environtment. we also maintain effient use of
                 wood in the construction and eco - friendly machinging equipment

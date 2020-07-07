@@ -27,7 +27,7 @@ const AboutModal = (props) => {
                 </p>
                 <p>How do we develop solutions for environment ?</p>
                 <p>
-                  First we have to identify the wood needs of each project then
+                  We have to identify the wood needs of each project then
                   we plant the wood seedlings according to the needs that we
                   use. Environmentally responsible and sustainable solutions.
                 </p>
@@ -35,7 +35,7 @@ const AboutModal = (props) => {
               <div className="col-md-6">
                 <h3 className="title-mission">Vission</h3>
                 <p>
-                  we believe the value of history is something that must be
+                  We believe the value of history is something that must be
                   preserved. <br />
                   "Phinisi" must be preserved as a culture to maintain thir
                   majesty in the future. Likewise with the environment. <br />

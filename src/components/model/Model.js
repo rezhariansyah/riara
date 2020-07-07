@@ -2,16 +2,17 @@ import React, { Component } from "react";
 import * as THREE from "three";
 import filePath from "../../assets/glb/RestaurantBooth7.glb";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 
 export default class Model extends Component {
   componentDidMount() {
     var scene = new THREE.Scene();
     scene.background = new THREE.Color(0xdddddd);
     var camera = new THREE.PerspectiveCamera(
-      75,
+      45,
       window.innerWidth / window.innerHeight,
-      0.1,
-      1000
+      1,
+      10000
     );
 
     var width = 100;
@@ -27,6 +28,11 @@ export default class Model extends Component {
     document
       .getElementsByClassName("three-canvas")[0]
       .appendChild(renderer.domElement);
+
+    var controls = new OrbitControls(camera, renderer.domElement);
+
+    camera.position.set(0, 20, 100);
+    controls.update();
 
     camera.position.z = 5;
     var animate = function () {
@@ -53,7 +59,6 @@ export default class Model extends Component {
 
     animate();
   }
-  
 
   render() {
     return <div className="three-canvas">{this.model}</div>;
