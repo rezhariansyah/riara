@@ -71,6 +71,7 @@ export default class Home extends Component {
                       ease: "inCirc",
                     })
                   }
+                  className="footer-nav"
                 >
                   WHAT WE DO
                 </NavLink>
@@ -87,6 +88,7 @@ export default class Home extends Component {
                       ease: "inCirc",
                     })
                   }
+                  className="footer-nav"
                 >
                   PROJECTS
                 </NavLink>
@@ -103,6 +105,7 @@ export default class Home extends Component {
                       ease: "inCirc",
                     })
                   }
+                  className="footer-nav"
                 >
                   <img
                     src={"https://riarariara.b-cdn.net/IMG_0462.PNG"}
@@ -123,6 +126,7 @@ export default class Home extends Component {
                       ease: "inCirc",
                     })
                   }
+                  className="footer-nav"
                 >
                   RECOURCES
                 </NavLink>
@@ -138,6 +142,7 @@ export default class Home extends Component {
                     ease: "inCirc",
                   })
                 }
+                className="footer-nav"
               >
                 <NavLink>CLIENTS</NavLink>
               </NavItem>
@@ -152,6 +157,7 @@ export default class Home extends Component {
                     ease: "inCirc",
                   })
                 }
+                className="footer-nav"
               >
                 <NavLink>GET IN TOUCH</NavLink>
               </NavItem>
