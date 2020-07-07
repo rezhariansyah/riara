@@ -35,7 +35,7 @@ const Resources = () => {
                 single member of our team feels fulfilled and enriched in thir
                 day-to-day operations. Besides that, training opportunities are
                 frequently provided internally and suplemented with sponsored
-                courses by relevant providers
+                courses by relevant providers.
               </p>
             </div>
           </div>

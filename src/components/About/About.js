@@ -41,7 +41,7 @@ const About = () => {
                 experienced in-house design and engineering team, as well as
                 modern production, and quality check. We offer high grade
                 products and services in new shipbuilding, remodeling, and
-                design interior
+                design interior.
               </p>
               <div className="about-title mt-4">
                 <h4 style={{ color: "#17A2BF" }}>Our Designs</h4>
@@ -53,9 +53,9 @@ const About = () => {
               <p>
                 Out of box design makes our work different and unique. Making it
                 easier for the owner to market the product. For the sake of
-                preserving the environtment. we also maintain effient use of
+                preserving the environtment. We also maintain effient use of
                 wood in the construction and eco - friendly machinging equipment
-                for the oceans
+                for the oceans.
               </p>
               <div className="about-mobile">
                 <AboutModal />

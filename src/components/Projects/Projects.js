@@ -50,7 +50,7 @@ const Projects = () => {
             <div className="col-md-6 caption-projects">
               <div className="about-title">
                 <h1 className="mt-3">PAPITON LOPI</h1>
-                <p className="subtitle">begin your odyssey</p>
+                <p className="subtitle">Begin your odyssey</p>
               </div>
               <div className="about-description">
                 <p>
@@ -58,7 +58,7 @@ const Projects = () => {
                   and constructed to meet the standards for both luxury living
                   and stability. This boat is incredibly stable on a rough sea
                   for the guest comfort. We design special features that are
-                  very Instagramable "Bow Spirit"
+                  very Instagramable "Bow Spirit".
                 </p>
                 <Project1 />
               </div>
@@ -71,7 +71,7 @@ const Projects = () => {
             <div className="col-md-6 caption-projects">
               <div className="about-title">
                 <h1 className="mt-3">PAPITON DUWA</h1>
-                <p className="subtitle">begin your odyssey</p>
+                <p className="subtitle">Begin your odyssey</p>
               </div>
               <div className="about-description">
                 <p>
@@ -99,7 +99,7 @@ const Projects = () => {
                   Japanesse style Cabins. With relatively wider beam designed,
                   this boat has a very good construction strength. We also sort
                   the best quality of wood material. Soon launching in November
-                  2020. See you on the sea
+                  2020. See you on the sea.
                 </p>
                 <Project3 />
               </div>
@@ -119,7 +119,7 @@ const Projects = () => {
                   Designed to meet the standards for luxury diving boat. As a
                   dive liveboard, it has several special features included for
                   diving ethusiast. With a beam of 6 meters, this boat has a
-                  fairly wide room. Plan for start building on 2021
+                  fairly wide room. Plan for start building on 2021.
                 </p>
                 <Project4 />
               </div>

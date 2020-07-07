@@ -89,7 +89,7 @@ class MyCarousel extends Component {
                 <h5 className="card-title text-center">Naval Architecture</h5>
                 <p className="card-text desc-what-we-do">
                   We provide ship consultant services for design engineers, for
-                  ship building needs. Sush as general arrangement, exterior and
+                  ship building needs. Such as general arrangement, exterior and
                   interios design, 3D layout, intact stability, ship structure,
                   safety plan.
                 </p>
@@ -106,7 +106,7 @@ class MyCarousel extends Component {
                 <p className="card-text desc-what-we-do">
                   We collaborate with tour and travel services, we will provide
                   advice for proper ship management. So we can confidently solve
-                  it in the sea transportation business
+                  it in the sea transportation business.
                 </p>
               </div>
             </div>
@@ -120,7 +120,7 @@ class MyCarousel extends Component {
                 <h5 className="card-title text-center">Branding</h5>
                 <p className="card-text desc-what-we-do">
                   The most important part in marketing. We can also help you to
-                  branding your boat. Ranging from website creation to promotion
+                  branding your boat. Ranging from website creation to promotion.
                 </p>
               </div>
             </div>
