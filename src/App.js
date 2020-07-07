@@ -12,8 +12,7 @@ function App() {
         <title>Riara Phinisi</title>
         <meta
           name="description"
-          content="Hello, as a Bira based Architects, Boat Consultant, and Content Creator. Sitto and team has completed several boat design and construction project - Producing Eco Friendly Boat, Out of Box design, and Boat according to cruise safety standards. We're also your travelmate,
-      let's go on an adventure"
+          content="Established in 2020 in Bira, Indonesia, Riara Indonesia traces its history building quality ships. Riara provides shipbuilding solutions for Phinisi Boad & Fiberglass Boat. Our qualified and experienced in-house design and engineering team, as well as modern production, and quality check. We offer high grade products and services in new shipbuilding, remodeling, and design interior."
           data-react-helmet="true"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
