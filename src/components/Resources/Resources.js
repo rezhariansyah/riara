@@ -24,16 +24,16 @@ const Resources = () => {
             </div>
             <div className="about-description">
               <p>
-                We emply highly skilled and well-rounded staff as we emphasize
+                We employ highly skilled and well-rounded staff as we emphasize
                 on fitting the right person to the right job to ensure
-                customer's saticsfaction.
+                customer's satisfaction.
               </p>
               <p>
                 The Company's growth is largely attributed to motivating and
                 empowering our employees at all levels, ensuring that every
-                single member of our team feels fulfilled and enriched in thir
+                single member of our team feels fulfilled and enriched in their
                 day-to-day operations. Besides that, training opportunities are
-                frequently provided internally and suplemented with sponsored
+                frequently provided internally and supplemented with sponsored
                 courses by relevant providers.
               </p>
             </div>

@@ -38,7 +38,7 @@ class MyCarousel extends Component {
                 <p className="card-text desc-what-we-do">
                   It is our capability to build phinisi and fiberglass boat to
                   meet various demands for our clients. Riara Indonesia has
-                  gained experience on building phinisi boat.
+                  gained experience in building phinisi boat.
                 </p>
               </div>
             </div>
@@ -52,8 +52,8 @@ class MyCarousel extends Component {
                 <h5 className="card-title text-center">Wood Fabrication</h5>
                 <p className="card-text desc-what-we-do">
                   We offer specialist workshops and open fabrication are with
-                  woodworking tools for made interior set. We can be your wood
-                  funiture solution.
+                  woodworking tools for a made interior set. We can be your wood
+                  furniture solution.
                 </p>
               </div>
             </div>
@@ -66,7 +66,7 @@ class MyCarousel extends Component {
               <div className="card-body">
                 <h5 className="card-title text-center" style={{fontSize:"18px"}}>Commercial Services</h5>
                 <p className="card-text desc-what-we-do">
-                  With it's role as the independent assurance, Riara also
+                  With its role as the independent assurance, Riara also
                   conducting QA & QC (second party) to ensure business the
                   customers running smoothly, guaranteed, safe and still
                   develop.
@@ -83,8 +83,8 @@ class MyCarousel extends Component {
                 <h5 className="card-title text-center">Naval Architecture</h5>
                 <p className="card-text desc-what-we-do">
                   We provide ship consultant services for design engineers, for
-                  ship building needs. Such as general arrangement, exterior and
-                  interios design, 3D layout, intact stability, ship structure,
+                  shipbuilding needs. Such as general arrangement, exterior and
+                  interior design, 3D layout, intact stability, ship structure,
                   safety plan.
                 </p>
               </div>
@@ -113,7 +113,7 @@ class MyCarousel extends Component {
               <div className="card-body">
                 <h5 className="card-title text-center">Branding</h5>
                 <p className="card-text desc-what-we-do">
-                  The most important part in marketing. We can also help you to
+                  The most important part of marketing. We can also help you to
                   branding your boat. Ranging from website creation to promotion.
                 </p>
               </div>

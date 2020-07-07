@@ -115,8 +115,8 @@ const Projects = () => {
                 <p>
                   Designed to meet the standards for luxury diving boat. As a
                   dive liveboard, it has several special features included for
-                  diving ethusiast. With a beam of 6 meters, this boat has a
-                  fairly wide room. Plan for start building on 2021.
+                  diving enthusiast. With a beam of 6 meters, this boat has a
+                  fairly wide room. Plan for start building in 2021.
                 </p>
                 <Project4 />
               </div>

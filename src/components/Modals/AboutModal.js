@@ -22,14 +22,14 @@ const AboutModal = (props) => {
               <div className="col-md-6">
                 <h3 className="title-mission">Mission</h3>
                 <p>
-                  Helping our customer to build the boat they want, white
+                  Helping our customers to build the boat they want, white
                   developing solutions to preserve the environment.
                 </p>
                 <p>How do we develop solutions for environment ?</p>
                 <p>
                   We have to identify the wood needs of each project then
                   we plant the wood seedlings according to the needs that we
-                  use. Environmentally responsible and sustainable solutions.
+                  use. Environment responsible and sustainable solutions.
                 </p>
               </div>
               <div className="col-md-6">
@@ -37,10 +37,10 @@ const AboutModal = (props) => {
                 <p>
                   We believe the value of history is something that must be
                   preserved. <br />
-                  "Phinisi" must be preserved as a culture to maintain thir
+                  "Phinisi" must be preserved as a culture to maintain their
                   majesty in the future. Likewise with the environment. <br />
                   We believe our children and grandchildren have a right to
-                  enjoy the earth and it's natural environtment. Together, let
+                  enjoy the earth and its natural environment. Together, let
                   us strive to be good stewards of the earth's resources and
                   stress conservation of resources where possible
                 </p>

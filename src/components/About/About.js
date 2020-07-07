@@ -36,7 +36,7 @@ const About = () => {
                 its history building quality ships. Riara provides shipbuilding
                 solutions for Phinisi Boad & Fiberglass Boat. Our qualified and
                 experienced in-house design and engineering team, as well as
-                modern production, and quality check. We offer high grade
+                modern production, and quality check. We offer high-grade
                 products and services in new shipbuilding, remodeling, and
                 design interior.
               </p>
@@ -48,10 +48,10 @@ const About = () => {
             </div>
             <div className="about-description">
               <p>
-                Out of box design makes our work different and unique. Making it
+                'Out of the box' design makes our work different and unique. Making it
                 easier for the owner to market the product. For the sake of
-                preserving the environtment. We also maintain effient use of
-                wood in the construction and eco - friendly machinging equipment
+                preserving the environment. We also maintain efficient use of
+                wood in the construction and eco-friendly machining equipment
                 for the oceans.
               </p>
               <div className="about-mobile">
