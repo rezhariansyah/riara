@@ -56,10 +56,12 @@
 
 .footer-wrapper {
   height: 260px;
-  background: url(../../assets/banner/main-banner.JPG);
+  background: url("https://riarariara.b-cdn.net/footer%20-%20riara%20.jpg");
   background-size: cover;
-  background-position: 50% -105%;
   margin-top: 90px;
+  object-fit: cover;
+  background-position: 50% -180%;
+  background-position: center;
 }
 
 .footer-wrapper > .footer-overlay {
@@ -91,10 +93,12 @@
   }
   .footer-wrapper {
     height: 260px;
-    background: url(../../assets/banner/main-banner.JPG);
+    background: url("https://riarariara.b-cdn.net/footer%20-%20riara%20.jpg");
     background-size: cover;
+    margin-top: 90px;
+    object-fit: cover;
+    background-position: 50% -180%;
     background-position: center;
-    background-position: 50% -145%;
   }
 }
 
@@ -105,8 +109,11 @@
   }
   .footer-wrapper {
     height: 260px;
-    background: url(../../assets/banner/main-banner.JPG);
+    background: url("https://riarariara.b-cdn.net/footer%20-%20riara%20.jpg");
     background-size: cover;
+    margin-top: 90px;
+    object-fit: cover;
+    background-position: 50% -180%;
     background-position: center;
   }
 }
@@ -114,7 +121,7 @@
 @media only screen and (max-width: 600px) {
   .footer-wrapper {
     height: 260px;
-    background: url(../../assets/banner/main-banner.JPG);
+    background: url("https://riarariara.b-cdn.net/main-banner.JPG");
     background-size: cover;
     background-position: center;
   }

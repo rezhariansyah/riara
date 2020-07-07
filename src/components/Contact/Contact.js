@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contact.css";
-import test from "../../assets/contact/map.png";
 
 const Contact = () => {
   return (
@@ -37,7 +36,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="col-md-9">
-              <img src={test} className="about-image-1" alt="..." />
+              <img src="https://riarariara.b-cdn.net/map.png" className="about-image-1" alt="..." />
             </div>
           </div>
         </div>

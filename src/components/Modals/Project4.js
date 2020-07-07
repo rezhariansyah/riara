@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Button, Modal, ModalHeader, ModalBody } from "reactstrap";
-import img1 from "../../assets/projects/anjaniVoyage/anjani-voyage-modal.jpg";
 import "./ProjectModal.css";
 
 const Project4 = (props) => {
@@ -19,7 +18,7 @@ const Project4 = (props) => {
         <ModalHeader toggle={toggle}>ANJANI VOYAGE</ModalHeader>
         <ModalBody>
           <div className="text-center">
-            <img src={img1} alt="..." className="anjani-image" />
+            <img src="https://riarariara.b-cdn.net/anjani-voyage-modal.jpg" alt="..." className="anjani-image" />
           </div>
         </ModalBody>
       </Modal>

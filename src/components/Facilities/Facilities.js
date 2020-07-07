@@ -1,11 +1,5 @@
 import React, { Component } from "react";
 import ReactCardCarousel from "react-card-carousel";
-import imageCard1 from "../../assets/facilities/shipBuilding.jpg";
-import imageCard2 from "../../assets/facilities/woodFabrication.jpg";
-import imageCard3 from "../../assets/facilities/shipManagement.jpg";
-import imageCard4 from "../../assets/facilities/navalArchitecture.jpg";
-import imageCard5 from "../../assets/facilities/branding.jpg";
-import imageCard6 from "../../assets/facilities/DSC09691.jpg";
 import "./Facilities.css";
 import Tools from "../Tools/Tools";
 
@@ -36,7 +30,7 @@ class MyCarousel extends Component {
             <div className="card card-facilities">
               <img
                 className="card-img-top facility-image"
-                src={imageCard1}
+                src="https://riarariara.b-cdn.net/shipBuilding.jpg"
                 alt="..."
               />
               <div className="card-body">
@@ -51,7 +45,7 @@ class MyCarousel extends Component {
             <div className="card card-facilities">
               <img
                 className="card-img-top facility-image"
-                src={imageCard2}
+                src="https://riarariara.b-cdn.net/woodFabrication.jpg"
                 alt="..."
               />
               <div className="card-body">
@@ -66,7 +60,7 @@ class MyCarousel extends Component {
             <div className="card card-facilities">
               <img
                 className="card-img-top facility-image commersial"
-                src={imageCard6}
+                src="https://riarariara.b-cdn.net/DSC09691.jpg"
                 alt="..."
               />
               <div className="card-body">
@@ -82,7 +76,7 @@ class MyCarousel extends Component {
             <div className="card card-facilities">
               <img
                 className="card-img-top facility-image"
-                src={imageCard4}
+                src="https://riarariara.b-cdn.net/navalArchitecture.jpg"
                 alt="..."
               />
               <div className="card-body">
@@ -98,7 +92,7 @@ class MyCarousel extends Component {
             <div className="card card-facilities">
               <img
                 className="card-img-top facility-image"
-                src={imageCard3}
+                src="https://riarariara.b-cdn.net/shipManagement.jpg"
                 alt="..."
               />
               <div className="card-body">
@@ -113,7 +107,7 @@ class MyCarousel extends Component {
             <div className="card card-facilities">
               <img
                 className="card-img-top facility-image"
-                src={imageCard5}
+                src="https://riarariara.b-cdn.net/branding.jpg"
                 alt="..."
               />
               <div className="card-body">

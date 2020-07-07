@@ -1,9 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import React from "react";
-import papiton from "../../assets/projects/papitonLopi/papiton.jpg";
-import lopiDuwa from "../../assets/projects/papitonDuwa/papiton-duwa.jpg";
-import vinca from "../../assets/projects/vinca/vinca.jpg";
 import anjani from "../../assets/projects/IMG_0579.JPG";
 import "./Projects.css";
 import Project1 from "../Modals/Project1";
@@ -45,7 +42,7 @@ const Projects = () => {
         <Carousel responsive={responsive} infinite={true}>
           <div className="row justify-content-center container-resources project-margin">
             <div className="col-md-6 p-0">
-              <img src={papiton} className="project-img img-fluid" alt="..."/>
+              <img src="https://riarariara.b-cdn.net/papiton.jpg" className="project-img img-fluid" alt="..."/>
             </div>
             <div className="col-md-6 caption-projects">
               <div className="about-title">
@@ -66,7 +63,7 @@ const Projects = () => {
           </div>
           <div className="row justify-content-center container-resources project-margin">
             <div className="col-md-6 p-0">
-              <img src={lopiDuwa} className="project-img img-fluid" alt="..."/>
+              <img src="https://riarariara.b-cdn.net/papiton-duwa.jpg" className="project-img img-fluid" alt="..."/>
             </div>
             <div className="col-md-6 caption-projects">
               <div className="about-title">
@@ -86,7 +83,7 @@ const Projects = () => {
           </div>
           <div className="row justify-content-center container-resources project-margin">
             <div className="col-md-6 p-0">
-              <img src={vinca} className="project-img img-fluid" alt="..."/>
+              <img src="https://riarariara.b-cdn.net/vinca.jpg" className="project-img img-fluid" alt="..."/>
             </div>
             <div className="col-md-6 caption-projects">
               <div className="about-title">
