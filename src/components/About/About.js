@@ -52,7 +52,7 @@ const About = () => {
             <div className="about-description">
               <p>
                 Out of box design makes our work different and unique. Making it
-                easier for the ouwner to market the product. For the sake of
+                easier for the owner to market the product. For the sake of
                 preserving the environtment. we also maintain effient use of
                 wood in the construction and eco - friendly machinging equipment
                 for the oceans
