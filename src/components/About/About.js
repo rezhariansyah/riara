@@ -58,7 +58,7 @@ const About = () => {
               <p>
                 Established in 2020 in Bira, Indonesia, Riara Indonesia traces
                 its history building quality ships. Riara provides shipbuilding
-                solutions for Phinisi Boad & Fiberglass Boat. We offer
+                solutions for Phinisi Boat & Fiberglass Boat. We offer
                 high-grade products and services in new shipbuilding,
                 remodeling, and design interior.
               </p>

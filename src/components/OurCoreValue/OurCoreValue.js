@@ -13,7 +13,7 @@ export default function OurCoreValue() {
           <p className="title-icon">Our Core Values</p>
         </div>
       </div>
-      <div className="row justify-content-center text-center icon-wrapper">
+      <div className="row justify-content-center text-center icon-wrapper ml-2 mr-2">
         <div className="col-6 mt-3 col-lg-2">
           <img src={integrity} alt="..." className="icons-value" />
           <h5 className="sub-icons">Integrity</h5>

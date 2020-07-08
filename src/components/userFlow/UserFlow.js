@@ -51,6 +51,17 @@ export default function UserFlow() {
                   <p>Materials</p>
                   <p>Quality Check</p>
                 </TimelineItem>
+                <TimelineItem
+                  key="001"
+                  dateText="LAUNCHING"
+                  style={{ color: "#FFC107" }}
+                >
+                  <h5 className="flowuserTitle">SAILING</h5>
+                  <br />
+                  <p>Ship Management</p>
+                  <p>Branding</p>
+                  <p>Maintenance</p>
+                </TimelineItem>
               </Timeline>
             </div>
           </div>
