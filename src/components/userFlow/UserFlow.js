@@ -7,7 +7,7 @@ export default function UserFlow() {
     <>
       <div className="container">
         <div className="row">
-          <div className="col-md-12 text-center">
+          <div className="col-md-12">
             <div style={{ fontFamily: "orpheuspro, serif" }}>
               <div className="row justify-content-center">
                 <div className="col-md-5 title-section">
@@ -25,7 +25,7 @@ export default function UserFlow() {
                 >
                   <h5 className="flowuserTitle">CLIENT INPUT</h5>
                   <br />
-                  <p>Proopsal</p>
+                  <p>Proposal</p>
                   <p>Concept</p>
                   <p>Consult</p>
                 </TimelineItem>

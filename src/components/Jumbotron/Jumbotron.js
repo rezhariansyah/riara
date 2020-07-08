@@ -20,7 +20,7 @@ const Banner = (props) => {
               </p>
               <p className="list-icon">
                 <a
-                  href="https://www.instagram.com/riara.indonesia/"
+                  href="https://www.instagram.com/riara.phinisi/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

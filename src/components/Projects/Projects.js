@@ -77,17 +77,23 @@ const Projects = () => {
                   for the guest comfort. We design special features that are
                   very Instagramable "Bow Spirit".
                 </p>
-                <a
-                  href="https://www.sailwithpapiton.com/"
-                  style={{ textDecoration: "none", color: "#2A2E32" }}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  www.sailwithpapiton.com
-                </a>
-                <br />
-                <br />
-                <Project1 />
+                <div className="mobileproject">
+                  <a
+                    href="https://www.sailwithpapiton.com/"
+                    style={{
+                      textDecoration: "none",
+                      color: "#2A2E32",
+                      fontFamily: "orpheuspro, serif",
+                    }}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    www.sailwithpapiton.com
+                  </a>
+                  <br />
+                  <br />
+                  <Project1 />
+                </div>
               </div>
             </div>
           </div>
@@ -124,17 +130,23 @@ const Projects = () => {
                   cabins. As a leisure boat, this boat is perfect for traveller.
                   Sailing area at Komodo National Park, Labuan Bajo, Indonesia.
                 </p>
-                <a
-                  href="https://www.sailwithpapiton.com/"
-                  style={{ textDecoration: "none", color: "#2A2E32" }}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  www.sailwithpapiton.com
-                </a>
-                <br />
-                <br />
-                <Project2 />
+                <div className="mobileproject">
+                  <a
+                    href="https://www.sailwithpapiton.com/"
+                    style={{
+                      textDecoration: "none",
+                      color: "#2A2E32",
+                      fontFamily: "orpheuspro, serif",
+                    }}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    www.sailwithpapiton.com
+                  </a>
+                  <br />
+                  <br />
+                  <Project2 />
+                </div>
               </div>
             </div>
           </div>
@@ -172,8 +184,12 @@ const Projects = () => {
                   the best quality of wood material. Soon launching in November
                   2020. See you on the sea.
                 </p>
-                <p>Coming Soon</p>
-                <Project3 />
+                <div className="mobileproject">
+                  <p style={{ fontFamily: "orpheuspro, serif" }}>
+                    Website coming soon
+                  </p>
+                  <Project3 />
+                </div>
               </div>
             </div>
           </div>
@@ -206,8 +222,12 @@ const Projects = () => {
                   diving enthusiast. With a beam of 6 meters, this boat has a
                   fairly wide room. Plan for start building in 2021.
                 </p>
-                <p>Coming Soon</p>
-                <Project4 />
+                <div className="mobileproject">
+                  <p style={{ fontFamily: "orpheuspro, serif" }}>
+                    Website coming soon
+                  </p>
+                  <Project4 />
+                </div>
               </div>
             </div>
           </div>
