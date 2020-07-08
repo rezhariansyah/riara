@@ -11,9 +11,8 @@ const Banner = (props) => {
           <div className="container">
             <div className="center-content">
               <p className="quote-banter">
-                We believe that customer{" "}
-                <span className="bold">satisfaction</span> is the greatest
-                <span className="bold"> achievement</span> <br />
+                Sustainable Boat Raiser Company. One Stop to build your{" "}
+                <span className="bold">FLOATING DREAM.</span>
               </p>
               <p className="list-icon">
                 <a

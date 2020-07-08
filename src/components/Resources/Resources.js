@@ -15,7 +15,7 @@ const Resources = () => {
       <div className="container container-resources">
         <div className="row justify-content-center flex-wrap align-items-center">
           <div className="col-md-6 p-0">
-            <img src="https://riarariara.b-cdn.net/DSC06552.jpg" className="about-image-1" alt="..." />
+            <img src="https://riarariara.b-cdn.net/resources.jpg" className="about-image-1" alt="..." />
           </div>
           <div className="col-md-6">
             <div className="about-title">

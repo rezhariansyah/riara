@@ -11,15 +11,15 @@ const About = () => {
           <div className="col-md-7">
             <div className="row">
               <div className="col-md-12">
-                <img className="about-image-1" src="https://riarariara.b-cdn.net/image1.jpg" alt="..." />
+                <img className="about-image-1" src="https://riarariara.b-cdn.net/about-main.jpg" alt="..." />
               </div>
             </div>
             <div className="row">
               <div className="col-6 col-md-6 pr-0">
-                <img className="about-image-2" src="https://riarariara.b-cdn.net/image2.jpg" alt="..." />
+                <img className="about-image-2" src="https://riarariara.b-cdn.net/about-1.jpg" alt="..." />
               </div>
               <div className="col-6 col-md-6 pl-0">
-                <img className="about-image-3" src="https://riarariara.b-cdn.net/image3.jpg" alt="..." />
+                <img className="about-image-3" src="https://riarariara.b-cdn.net/about-2.jpg" alt="..." />
               </div>
             </div>
           </div>

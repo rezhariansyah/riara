@@ -3,6 +3,10 @@
   visibility: hidden;
 }
 
+.project-img {
+  height: 500px !important;
+}
+
 .project-margin {
   margin-left: 0px !important;
 }
