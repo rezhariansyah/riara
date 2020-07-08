@@ -129,7 +129,7 @@ export default class Home extends Component {
                   }
                   className="footer-nav"
                 >
-                  RECOURCES
+                  TEAM
                 </NavLink>
               </NavItem>
             </li>
@@ -231,7 +231,7 @@ export default class Home extends Component {
                   })
                 }
               >
-                <NavLink>RESOURCES</NavLink>
+                <NavLink>TEAM</NavLink>
               </NavItem>
               <NavItem
                 onClick={() =>
