@@ -11,8 +11,12 @@ const Banner = (props) => {
           <div className="container">
             <div className="center-content">
               <p className="quote-banter">
-                Sustainable Boat Raiser Company. One Stop to build your{" "}
-                <span className="bold">FLOATING DREAM.</span>
+                Sustainable <span className="bold">Boat Raiser</span> Company.{" "}
+                <br />{" "}
+                <span className="subQuote">
+                  One Stop to build your{" "}
+                  <span className="bold">FLOATING DREAM.</span>
+                </span>
               </p>
               <p className="list-icon">
                 <a

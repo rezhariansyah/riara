@@ -13,6 +13,10 @@
   text-align: center;
 }
 
+.subQuote {
+  font-size: 30px;
+}
+
 .bold {
   font-weight: bold;
   color: #ffab00;
@@ -64,6 +68,16 @@
   .list-icon {
     font-size: 25px;
     margin-top: 20px;
+  }
+
+  .subQuote {
+    font-size: 25px;
+  }
+
+  .quote-banter {
+    font-size: 35px;
+    font-weight: 100;
+    text-align: center;
   }
 
   .icons {
@@ -119,6 +133,10 @@
     text-align: left;
     margin-right: 15px;
     margin-left: 15px;
+  }
+
+  .subQuote {
+    font-size: 25px;
   }
 
   .hashtag {
