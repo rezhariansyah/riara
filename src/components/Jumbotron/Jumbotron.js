@@ -12,7 +12,7 @@ const Banner = (props) => {
             <div className="center-content">
               <p className="quote-banter">
                 Sustainable <span className="bold">Boat Raiser</span> Company.{" "}
-                <br />{" "}
+                <br />
                 <span className="subQuote">
                   One Stop to build your{" "}
                   <span className="bold">FLOATING DREAM.</span>

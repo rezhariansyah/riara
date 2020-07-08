@@ -7,11 +7,11 @@ const BigQuote = () => {
     <div className="row justify-content-center">
       <div className="col-md-6 text-center">
         <div className="container">
-          <p className="quote">
+          <p className="quote" style={{fontFamily:"orpheuspro, serif"}}>
             We can't control the weather, but we can control the schedule,
             quality, cost, and safety
             <br />
-            <i className="hashtag">#byhandmade</i>
+            <i className="hashtag" style={{fontFamily:"orpheuspro, serif"}}>#madebyexperience</i>
           </p>
         </div>
 

@@ -12,12 +12,13 @@ class MyCarousel extends Component {
       display: "flex",
       flex: 1,
       justifyContent: "center",
+      fontFamily: "orpheuspro, serif",
     };
   }
   render() {
     return (
       <>
-        <div className="container">
+        <div className="container" style={{ fontFamily: "orpheuspro, serif" }}>
           <div className="row justify-content-center">
             <div className="col-md-5 title-section">
               <p className="subtitle-about">W H A T</p>
@@ -60,11 +61,16 @@ class MyCarousel extends Component {
             <div className="card card-facilities">
               <img
                 className="card-img-top facility-image commersial"
-                src="https://riarariara.b-cdn.net/IMG_0457.jpg"
+                src="https://riarariara.b-cdn.net/coomercial%20services.jpg"
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title text-center" style={{fontSize:"18px"}}>Commercial Services</h5>
+                <h5
+                  className="card-title text-center"
+                  style={{ fontSize: "18px" }}
+                >
+                  Commercial Services
+                </h5>
                 <p className="card-text desc-what-we-do">
                   With its role as the independent assurance, Riara also
                   conducting QA & QC (second party) to ensure business the
@@ -114,7 +120,8 @@ class MyCarousel extends Component {
                 <h5 className="card-title text-center">Branding</h5>
                 <p className="card-text desc-what-we-do">
                   The most important part of marketing. We can also help you to
-                  branding your boat. Ranging from website creation to promotion.
+                  branding your boat. Ranging from website creation to
+                  promotion.
                 </p>
               </div>
             </div>

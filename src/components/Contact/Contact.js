@@ -4,7 +4,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <>
-      <div className="contact-wrapper">
+      <div className="contact-wrapper" style={{fontFamily:"orpheuspro, serif"}}>
         <div className="container container-about">
           <div className="row">
             <div className="col-md-3">
@@ -30,13 +30,13 @@ const Contact = () => {
                     onClick={() => window.open("https://wa.link/48ta3n", "_blank")}
                     className="btn btn-warning"
                   >
-                    LET'S TALK
+                    LETS TALK
                   </button>
                 </div>
               </div>
             </div>
             <div className="col-md-9">
-              <img src="https://riarariara.b-cdn.net/map.png" className="about-image-1" alt="..." />
+              <img src="https://riarariara.b-cdn.net/map.png" className="about-image-1" style={{borderRadius:"10px"}} alt="..." />
             </div>
           </div>
         </div>

@@ -7,6 +7,7 @@
   margin-top: 80px;
   border-left: solid 5px #17a2bf;
   margin-bottom: 50px;
+  margin-left: 45px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -24,6 +25,7 @@
     border-left: solid 5px #17a2bf;
     margin-bottom: 0px;
     margin-left: 22%;
+    left: 24px;
   }
 }
 

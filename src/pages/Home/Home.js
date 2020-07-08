@@ -18,6 +18,7 @@ import {
 } from "reactstrap";
 import scrollToComponent from "react-scroll-to-component";
 import "./Home.css";
+import UserFlow from "../../components/userFlow/UserFlow";
 // import Model from "../../components/model/Model";
 // import Vr from "../../components/Modals/VR";
 
@@ -296,6 +297,7 @@ export default class Home extends Component {
         >
           <Projects />
           {/* <Vr /> */}
+          <UserFlow />
         </section>
         <section
           className="Resources"

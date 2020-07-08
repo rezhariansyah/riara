@@ -5,15 +5,19 @@ import office from "../../assets/tools/office.png";
 import rhino from "../../assets/tools/rhino.png";
 import roomle from "../../assets/tools/roomle.jpeg";
 import sketchup from "../../assets/tools/sketchup.png";
-import "./Tools.css"
+import "./Tools.css";
 
 const Tools = () => {
   return (
     <>
-      <div className="clients-wrapper" style={{ backgroundColor: "white" }}>
+      <div
+        className="clients-wrapper"
+        style={{ backgroundColor: "white", fontFamily: "orpheuspro, serif" }}
+      >
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-5 tools-section">
+              <p className="subtitle-about">D E S I G N</p>
               <h1 className="title-about">TOOLS</h1>
             </div>
           </div>

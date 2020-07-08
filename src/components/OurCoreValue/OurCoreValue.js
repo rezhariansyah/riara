@@ -7,7 +7,7 @@ import "./OurCoreValue.css";
 
 export default function OurCoreValue() {
   return (
-    <div className="container-about wrapper-tools">
+    <div className="container-about wrapper-tools" style={{fontFamily:"orpheuspro, serif"}}>
       <div className="row justify-content-center">
         <div className="col-3 text-center core-title title-value">
           <p className="title-icon">Our Core Values</p>

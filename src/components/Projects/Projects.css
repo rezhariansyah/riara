@@ -1,6 +1,9 @@
-
 .hide {
   visibility: hidden;
+}
+
+.project-img {
+  border-radius: 10px;
 }
 
 .project-margin {
