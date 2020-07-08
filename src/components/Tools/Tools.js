@@ -20,21 +20,27 @@ const Tools = () => {
           <div className="row justify-content-center tools-margin text-center flex-wrap align-items-center ml-4 mr-4">
             <div className="col-4 col-md-2 mt-3">
               <img src={autoCad} alt="" className="tools-img" />
+              <p className="mt-3 tools-name">AutoCad</p>
             </div>
             <div className="col-4 col-md-2 mt-3">
               <img src={maxsuft} alt="" className="tools-img" />
+              <p className="mt-3 tools-name">Maxsurf</p>
             </div>
             <div className="col-4 col-md-2 mt-3">
               <img src={office} alt="" className="tools-img" />
+              <p className="mt-3 tools-name">Ms Office</p>
             </div>
             <div className="col-4 col-md-2 mt-3">
               <img src={rhino} alt="" className="tools-img" />
+              <p className="mt-3 tools-name">Rhinoceros</p>
             </div>
             <div className="col-4 col-md-2 mt-3">
               <img src={roomle} alt="" className="tools-img" />
+              <p className="mt-3 tools-name">Roomle</p>
             </div>
             <div className="col-4 col-md-2 mt-3">
               <img src={sketchup} alt="" className="tools-img" />
+              <p className="mt-3 tools-name">Sketchup</p>
             </div>
           </div>
         </div>

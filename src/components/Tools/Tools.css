@@ -1,5 +1,6 @@
 .tools-img {
   width: 50px;
+  height: 50px;
 }
 
 .tools-section {
@@ -10,11 +11,12 @@
 
 @media only screen and (max-width: 600px) {
   .tools-margin {
-      margin-top: 30px;
+    margin-top: 30px;
   }
 
   .tools-img {
-    width: 30px;
+    width: 35px;
+    height: 35px;
   }
 
   .tools-section {
@@ -22,5 +24,11 @@
     border-left: solid 5px #17a2bf;
     margin-bottom: 0px;
     margin-left: 22%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .tools-name {
+    font-size: smaller;
   }
 }

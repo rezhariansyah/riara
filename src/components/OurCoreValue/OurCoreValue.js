@@ -10,7 +10,7 @@ export default function OurCoreValue() {
     <div className="container-about wrapper-tools">
       <div className="row justify-content-center">
         <div className="col-3 text-center core-title title-value">
-          <p className="title-icon">Our Core Value</p>
+          <p className="title-icon">Our Core Values</p>
         </div>
       </div>
       <div className="row justify-content-center text-center icon-wrapper">
