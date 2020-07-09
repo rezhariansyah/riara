@@ -101,7 +101,7 @@ const Resources = () => {
                   </p>
                   <p>
                     He always puts himself as a traveler when designing. So what
-                    travelers want on vacation will be as they imagine. Confort,
+                    travelers want on vacation will be as they imagine. Comfort,
                     best position for enjoy sunset, instagramable spots, and
                     best sailing experience.
                   </p>
