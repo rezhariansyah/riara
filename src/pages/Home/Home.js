@@ -405,6 +405,9 @@ export default class Home extends Component {
                     <hr style={{ backgroundColor: "white" }} />
                   </div>
                 </div>
+                <div className="row justify-content-center text-center">
+                  <div className="col-12">© 2020 Riara. All Rights Reserved.</div>
+                </div>
               </div>
             </div>
           </div>
