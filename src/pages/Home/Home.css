@@ -11,6 +11,10 @@
   text-align: center;
 }
 
+.copywrite {
+  margin-bottom: 20px;
+}
+
 .bar-nav {
   height: 75px;
 }
@@ -79,7 +83,7 @@
   z-index: 3;
   color: white;
   position: relative;
-  top: 35%;
+  top: 73px;
 }
 
 .footer-nav {
@@ -99,6 +103,12 @@
     object-fit: cover;
     background-position: 50% -180%;
     background-position: center;
+  }
+  .footer-inner {
+    z-index: 3;
+    color: white;
+    position: relative;
+    top: 64px;
   }
 }
 
@@ -124,5 +134,12 @@
     background: url("https://riarariara.b-cdn.net/main-banner.JPG");
     background-size: cover;
     background-position: center;
+  }
+
+  .footer-inner {
+    z-index: 3;
+    color: white;
+    position: relative;
+    top: 52px;
   }
 }

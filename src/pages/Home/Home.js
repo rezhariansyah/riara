@@ -406,7 +406,7 @@ export default class Home extends Component {
                   </div>
                 </div>
                 <div className="row justify-content-center text-center">
-                  <div className="col-12">© 2020 Riara. All Rights Reserved.</div>
+                  <div className="col-12 copywrite">© 2020 Riara. All Rights Reserved.</div>
                 </div>
               </div>
             </div>
