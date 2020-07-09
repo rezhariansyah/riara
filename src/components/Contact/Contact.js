@@ -4,21 +4,21 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <>
-      <div className="contact-wrapper" style={{fontFamily:"orpheuspro, serif"}}>
+      <div className="contact-wrapper">
         <div className="container container-about">
           <div className="row">
             <div className="col-md-3">
               <div className="container" style={{ paddingRight: "0px" }}>
                 <div className="contact-title">
-                  <p>
-                    TALK TO AN ENGINEER <br /> OR PRODUCT MANAGER
+                  <p style={{fontFamily:"orpheuspro, serif"}}>
+                    LET'S TALK WITH OUR ENGINEER OR PRODUCT MANAGER
                   </p>
                 </div>
 
                 <br />
                 <div className="about-description detail-contact mb-4">
-                  <h5 style={{ color: "#17A2BF" }}>RIARA</h5>
-                  <p>
+                  <h5 style={{ color: "#17A2BF", fontFamily:"orpheuspro, serif" }}>RIARA</h5>
+                  <p style={{fontFamily:"orpheuspro, serif"}}>
                     Desa Ara <br /> Bulukumba <br /> Sulawesi Selatan <br />{" "}
                     Indonesia 95721 <br /> <br />
                     <i>hello@riara.co</i> <br /> Telp : +62 852 4463 1945 <br />{" "}
@@ -30,7 +30,7 @@ const Contact = () => {
                     onClick={() => window.open("https://wa.link/48ta3n", "_blank")}
                     className="btn btn-warning"
                   >
-                    LETS TALK
+                    LET'S TALK
                   </button>
                 </div>
               </div>

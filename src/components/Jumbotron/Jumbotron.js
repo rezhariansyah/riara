@@ -14,7 +14,7 @@ const Banner = (props) => {
                 Sustainable <span className="bold">Boat Raiser</span> Company.{" "}
                 <br />
                 <span className="subQuote">
-                  One Stop to build your{" "}
+                  <span className="bold">One Stop</span> to build your{" "}
                   <span className="bold">FLOATING DREAM.</span>
                 </span>
               </p>

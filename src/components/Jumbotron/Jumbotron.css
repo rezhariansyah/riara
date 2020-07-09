@@ -128,15 +128,15 @@
 
 @media only screen and (max-width: 600px) {
   .quote-banter {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 100;
-    text-align: left;
+    text-align: center;
     margin-right: 15px;
     margin-left: 15px;
   }
 
   .subQuote {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .hashtag {
