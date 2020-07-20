@@ -15,6 +15,10 @@
   object-fit: cover;
 }
 
+.img-vinca {
+  height: 578px !important;
+}
+
 @media only screen and (max-width: 1024px) {
 }
 
@@ -23,10 +27,28 @@
     margin-left: 0px !important;
     margin-right: 0px !important;
   }
+  .img-vinca {
+    height: 358px !important;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .mobileproject {
     text-align: center;
+  }
+  .img-vinca {
+    height: 426px !important;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .img-vinca {
+    height: 376px !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .img-vinca {
+    height: 320px !important;
   }
 }

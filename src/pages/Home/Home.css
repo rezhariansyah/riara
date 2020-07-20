@@ -60,7 +60,7 @@
 
 .footer-wrapper {
   height: 260px;
-  background: url("https://riarariara.b-cdn.net/footer%20-%20riara%20.jpg");
+  background: url("https://res.cloudinary.com/dewnmhir6/image/upload/v1595229090/riara/footer/footer-img_il3agb.jpg");
   background-size: cover;
   margin-top: 90px;
   object-fit: cover;
@@ -97,7 +97,7 @@
   }
   .footer-wrapper {
     height: 260px;
-    background: url("https://riarariara.b-cdn.net/footer%20-%20riara%20.jpg");
+    background: url("https://res.cloudinary.com/dewnmhir6/image/upload/v1595229090/riara/footer/footer-img_il3agb.jpg");
     background-size: cover;
     margin-top: 90px;
     object-fit: cover;
@@ -119,7 +119,7 @@
   }
   .footer-wrapper {
     height: 260px;
-    background: url("https://riarariara.b-cdn.net/footer%20-%20riara%20.jpg");
+    background: url("https://res.cloudinary.com/dewnmhir6/image/upload/v1595229334/riara/footer/footer-mobile_jpzsig.jpg");
     background-size: cover;
     margin-top: 90px;
     object-fit: cover;
@@ -131,7 +131,7 @@
 @media only screen and (max-width: 600px) {
   .footer-wrapper {
     height: 260px;
-    background: url("https://riarariara.b-cdn.net/main-banner.JPG");
+    background: url("https://res.cloudinary.com/dewnmhir6/image/upload/v1595229334/riara/footer/footer-mobile_jpzsig.jpg");
     background-size: cover;
     background-position: center;
   }

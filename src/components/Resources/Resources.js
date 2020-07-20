@@ -42,7 +42,7 @@ const Resources = () => {
             <div className="row justify-content-center">
               <div className="col-md-6 p-0">
                 <img
-                  src="https://riarariara.b-cdn.net/resources.jpg"
+                  src="https://res.cloudinary.com/dewnmhir6/image/upload/v1595224531/riara/our%20team/resources_kgky5f.jpg"
                   className="about-image-1"
                   style={{ borderRadius: "10px" }}
                   alt="..."
@@ -80,7 +80,7 @@ const Resources = () => {
             <div className="row justify-content-center">
               <div className="col-md-6 p-0">
                 <img
-                  src="https://riarariara.b-cdn.net/resources-1.jpg"
+                  src="https://res.cloudinary.com/dewnmhir6/image/upload/v1595224537/riara/our%20team/director_nn0kza.jpg"
                   className="about-image-1"
                   style={{ borderRadius: "10px" }}
                   alt="..."
@@ -130,7 +130,7 @@ const Resources = () => {
             <div className="row justify-content-center">
               <div className="col-md-6 p-0">
                 <img
-                  src="https://riarariara.b-cdn.net/resouces-2.JPG"
+                  src="https://res.cloudinary.com/dewnmhir6/image/upload/v1595224533/riara/our%20team/panrita_uyod7k.jpg"
                   className="about-image-1"
                   style={{ borderRadius: "10px" }}
                   alt="..."

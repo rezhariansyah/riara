@@ -19,6 +19,7 @@ import {
 import scrollToComponent from "react-scroll-to-component";
 import "./Home.css";
 import UserFlow from "../../components/userFlow/UserFlow";
+// import HorizontalFlow from "../../components/userFlow/HorizontalFlow";
 // import Model from "../../components/model/Model";
 // import Vr from "../../components/Modals/VR";
 
@@ -109,7 +110,7 @@ export default class Home extends Component {
                   className="footer-nav"
                 >
                   <img
-                    src={"https://riarariara.b-cdn.net/IMG_0462.PNG"}
+                    src={"https://res.cloudinary.com/dewnmhir6/image/upload/v1595224805/riara/navbar/IMG_0462_udzxc9.png"}
                     className="logo-riara"
                     alt="logo-riara"
                   />
@@ -173,7 +174,7 @@ export default class Home extends Component {
         >
           <NavbarBrand href="/">
             <img
-              src={"https://riarariara.b-cdn.net/IMG_0462.PNG"}
+              src={"https://res.cloudinary.com/dewnmhir6/image/upload/v1595224805/riara/navbar/IMG_0462_udzxc9.png"}
               className="logo-riara"
               alt="logo-riara"
             />
@@ -297,6 +298,7 @@ export default class Home extends Component {
         >
           <Projects />
           {/* <Vr /> */}
+          {/* <HorizontalFlow /> */}
           <UserFlow />
         </section>
         <section

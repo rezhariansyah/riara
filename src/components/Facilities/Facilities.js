@@ -31,7 +31,7 @@ class MyCarousel extends Component {
             <div className="card card-facilities">
               <img
                 className="card-img-top facility-image"
-                src="https://riarariara.b-cdn.net/DSC02928.jpg"
+                src="https://res.cloudinary.com/dewnmhir6/image/upload/v1595226656/riara/what%20we%20do/ship-building_otp1ha.jpg"
                 alt="..."
               />
               <div className="card-body">
@@ -46,7 +46,7 @@ class MyCarousel extends Component {
             <div className="card card-facilities">
               <img
                 className="card-img-top facility-image"
-                src="https://riarariara.b-cdn.net/DSC09558.jpg"
+                src="https://res.cloudinary.com/dewnmhir6/image/upload/v1595226660/riara/what%20we%20do/wood-fabrication_d5cfgi.jpg"
                 alt="..."
               />
               <div className="card-body">
@@ -61,7 +61,7 @@ class MyCarousel extends Component {
             <div className="card card-facilities">
               <img
                 className="card-img-top facility-image commersial"
-                src="https://riarariara.b-cdn.net/coomercial%20services.jpg"
+                src="https://res.cloudinary.com/dewnmhir6/image/upload/v1595226664/riara/what%20we%20do/coomercial-services_jmarkk.jpg"
                 alt="..."
               />
               <div className="card-body">
@@ -82,7 +82,7 @@ class MyCarousel extends Component {
             <div className="card card-facilities">
               <img
                 className="card-img-top facility-image"
-                src="https://riarariara.b-cdn.net/DSC07823%20(1).jpg"
+                src="https://res.cloudinary.com/dewnmhir6/image/upload/v1595226644/riara/what%20we%20do/naval-achitecture_o9bwkq.jpg"
                 alt="..."
               />
               <div className="card-body">
@@ -98,7 +98,7 @@ class MyCarousel extends Component {
             <div className="card card-facilities">
               <img
                 className="card-img-top facility-image"
-                src="https://riarariara.b-cdn.net/DSCF9232.jpg"
+                src="https://res.cloudinary.com/dewnmhir6/image/upload/v1595226657/riara/what%20we%20do/ship-management_coqv4h.jpg"
                 alt="..."
               />
               <div className="card-body">
@@ -113,7 +113,7 @@ class MyCarousel extends Component {
             <div className="card card-facilities">
               <img
                 className="card-img-top facility-image"
-                src="https://riarariara.b-cdn.net/DSCF9241.jpg"
+                src="https://res.cloudinary.com/dewnmhir6/image/upload/v1595226666/riara/what%20we%20do/branding_uah1fj.jpg"
                 alt="..."
               />
               <div className="card-body">

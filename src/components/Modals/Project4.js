@@ -18,7 +18,7 @@ const Project4 = (props) => {
         <ModalHeader toggle={toggle}>ANJANI VOYAGE</ModalHeader>
         <ModalBody>
           <div className="text-center">
-            <img src="https://riarariara.b-cdn.net/anjani-voyage-modal.jpg" alt="..." className="anjani-image" />
+            <img src="https://res.cloudinary.com/dewnmhir6/image/upload/v1595228686/riara/projects/anjani-voyage-modal_o8chfo.jpg" alt="..." className="anjani-image" />
           </div>
         </ModalBody>
       </Modal>

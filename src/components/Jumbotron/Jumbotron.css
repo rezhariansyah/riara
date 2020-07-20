@@ -34,7 +34,7 @@
 
 .jumbotron-body {
   height: 110vh;
-  background: url("https://riarariara.b-cdn.net/banner/DSCF9247.jpg");
+  background: url("https://res.cloudinary.com/dewnmhir6/image/upload/v1595225179/riara/banner/main-banner_u8gcxt.jpg");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -150,7 +150,7 @@
 
   .jumbotron-body {
     height: 110vh;
-    background: url("https://riarariara.b-cdn.net/banner/mobile-banner.JPG");
+    background: url("https://res.cloudinary.com/dewnmhir6/image/upload/v1595225338/riara/banner/mobile-banner_edrnp7.jpg");
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;

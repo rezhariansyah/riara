@@ -46,7 +46,7 @@ const Projects = () => {
           <div className="row justify-content-center container-resources project-margin">
             <div className="col-md-6 p-0">
               <img
-                src="https://riarariara.b-cdn.net/lopi.jpg"
+                src="https://res.cloudinary.com/dewnmhir6/image/upload/v1595227301/riara/projects/papiton-lopi_ob5nnn.jpg"
                 className="project-img img-fluid"
                 alt="..."
               />
@@ -100,7 +100,7 @@ const Projects = () => {
           <div className="row justify-content-center container-resources project-margin">
             <div className="col-md-6 p-0">
               <img
-                src="https://riarariara.b-cdn.net/papiton-duwa.jpg"
+                src="https://res.cloudinary.com/dewnmhir6/image/upload/v1595227305/riara/projects/papiton-duwa_vr8wdj.jpg"
                 className="project-img img-fluid"
                 alt="..."
               />
@@ -153,8 +153,8 @@ const Projects = () => {
           <div className="row justify-content-center container-resources project-margin">
             <div className="col-md-6 p-0">
               <img
-                src="https://riarariara.b-cdn.net/vinca.jpg"
-                className="project-img img-fluid"
+                src="https://res.cloudinary.com/dewnmhir6/image/upload/v1595227311/riara/projects/vinca_bxhevl.jpg"
+                className="project-img img-vinca img-fluid"
                 alt="..."
               />
             </div>

@@ -13,7 +13,7 @@ const About = () => {
               <div className="col-md-12">
                 <img
                   className="about-image-1"
-                  src="https://riarariara.b-cdn.net/about-main.jpg"
+                  src="https://res.cloudinary.com/dewnmhir6/image/upload/v1595225660/riara/about/about-main_yepwl1.jpg"
                   alt="..."
                 />
               </div>
@@ -22,14 +22,14 @@ const About = () => {
               <div className="col-6 col-md-6 pr-0">
                 <img
                   className="about-image-2"
-                  src="https://riarariara.b-cdn.net/about-1.jpg"
+                  src="https://res.cloudinary.com/dewnmhir6/image/upload/v1595225694/riara/about/about-1_tireg3.jpg"
                   alt="..."
                 />
               </div>
               <div className="col-6 col-md-6 pl-0">
                 <img
                   className="about-image-3"
-                  src="https://riarariara.b-cdn.net/about-2.jpg"
+                  src="https://res.cloudinary.com/dewnmhir6/image/upload/v1595225806/riara/about/about-2_t9ukum.jpg"
                   alt="..."
                 />
               </div>

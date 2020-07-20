@@ -18,7 +18,7 @@ const Project4 = (props) => {
         <ModalHeader toggle={toggle}>PAPITON LOPI</ModalHeader>
         <ModalBody>
           <div className="text-center">
-            <img src="https://riarariara.b-cdn.net/papiton-modal.jpg" alt="..." className="anjani-image" />
+            <img src="https://res.cloudinary.com/dewnmhir6/image/upload/v1595228345/riara/projects/papiton-modal_oh6gr8.jpg" alt="..." className="anjani-image" />
           </div>
         </ModalBody>
       </Modal>

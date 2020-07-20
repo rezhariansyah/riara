@@ -36,7 +36,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="col-md-9">
-              <img src="https://riarariara.b-cdn.net/map.png" className="about-image-1" style={{borderRadius:"10px"}} alt="..." />
+              <img src="https://res.cloudinary.com/dewnmhir6/image/upload/v1595228925/riara/contact%20map/map_jhdobe.png" className="about-image-1" style={{borderRadius:"10px"}} alt="..." />
             </div>
           </div>
         </div>
